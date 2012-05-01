@@ -89,9 +89,13 @@ menu_title_compare (GtkWindow *a, GtkWindow *b)
 static void
 menu_show_all (XpadPadGroup *group)
 {
-	GSList *pads = xpad_pad_group_get_pads (xpad_app_get_pad_group ());
-	g_slist_foreach (pads, (GFunc) gtk_window_present, NULL);
-	g_slist_free (pads);
+    xpad_pad_group_show_all(group);
+}
+    
+static void
+menu_close_all (XpadPadGroup *group)
+{
+    xpad_pad_group_close_all(group);
 }
 
 static void
@@ -128,7 +132,7 @@ xpad_tray_popup_menu_cb (GtkStatusIcon *icon, guint button, guint time)
 		gtk_widget_set_sensitive (item, FALSE);
 	
 	item = gtk_image_menu_item_new_with_mnemonic (_("_Close All"));
-	g_signal_connect_swapped (item, "activate", G_CALLBACK (xpad_pad_group_close_all), xpad_app_get_pad_group ());
+	g_signal_connect_swapped (item, "activate", G_CALLBACK (menu_close_all), xpad_app_get_pad_group ());
 	gtk_container_add (GTK_CONTAINER (menu), item);
 	gtk_widget_show (item);
 	if (!pads)
@@ -191,8 +195,13 @@ xpad_tray_popup_menu_cb (GtkStatusIcon *icon, guint button, guint time)
 static void
 xpad_tray_activate_cb (GtkStatusIcon *icon)
 {
-	GSList *pads = xpad_pad_group_get_pads (xpad_app_get_pad_group ());
-	g_slist_foreach (pads, (GFunc) gtk_window_present, NULL);
-	g_slist_free (pads);
+    static gboolean hidden = TRUE;
+
+    if (hidden == TRUE)
+        menu_show_all(xpad_app_get_pad_group());
+    else
+        menu_close_all(xpad_app_get_pad_group());
+
+    hidden = !hidden;
 }
 
