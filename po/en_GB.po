@@ -1,0 +1,360 @@
+# English (British) translation for xpad.
+# Copyright (C) 2006 THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the xpad package.
+# David Lodge <dave@cirt.net>, 2006.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: xpad 2.11\n"
+"Report-Msgid-Bugs-To: xpad-devel@lists.sourceforge.net\n"
+"POT-Creation-Date: 2011-11-14 11:41-0500\n"
+"PO-Revision-Date: 2009-01-11 17:24+0000\n"
+"Last-Translator: David Lodge <dave@cirt.net>\n"
+"Language-Team: English (British) <en_gb@li.org>\n"
+"Language: en_GB\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2009-05-11 01:52+0000\n"
+"X-Generator: Launchpad (build Unknown)\n"
+
+#: ../src/fio.c:128
+#, c-format
+msgid "Could not write to file %s: %s"
+msgstr ""
+
+#: ../src/help.c:49
+msgid ""
+"Each xpad session consists of one or more open pads.  These pads are "
+"basically sticky notes on your desktop in which you can write memos."
+msgstr ""
+
+#: ../src/help.c:52
+msgid ""
+"<b>To move a pad</b>, left drag on the toolbar, right drag on the resizer in "
+"the bottom right, or hold down CTRL while left dragging anywhere on the pad."
+msgstr ""
+
+#: ../src/help.c:55
+msgid ""
+"<b>To resize a pad</b>, left drag on the resizer or hold down CTRL while "
+"right dragging anywhere on the pad."
+msgstr ""
+
+#: ../src/help.c:57
+msgid ""
+"<b>To change color settings</b>, right click on a pad and choose Edit-"
+">Preferences."
+msgstr ""
+
+#: ../src/help.c:59
+msgid ""
+"Most actions are available throught the popup menu that appears when you "
+"right click on a pad.  Try it out and enjoy."
+msgstr ""
+
+#: ../src/help.c:62
+msgid "Please send comments or bug reports to xpad-devel@lists.sourceforge.net"
+msgstr ""
+
+#: ../src/help.c:73
+msgid "Help"
+msgstr ""
+
+#: ../src/xpad-app.c:131
+msgid "Xpad is a graphical program.  Please run it from your desktop."
+msgstr "Xpad is a graphical program.  Please run it from your desktop."
+
+#: ../src/xpad-app.c:136 ../xpad.desktop.in.h:3
+msgid "Xpad"
+msgstr "Xpad"
+
+#: ../src/xpad-app.c:457
+#, c-format
+msgid "Could not open directory %s."
+msgstr "Could not open directory %s."
+
+#: ../src/xpad-app.c:460
+msgid ""
+"This directory is needed to store preference and pad information.  Xpad will "
+"close now."
+msgstr ""
+"This directory is needed to store preference and pad information.  Xpad will "
+"close now."
+
+#: ../src/xpad-app.c:767
+msgid "Show version number and quit"
+msgstr "Show version number and quit"
+
+#: ../src/xpad-app.c:768
+msgid "Don't create a new pad on startup if no previous pads exist"
+msgstr "Don't create a new pad on startup if no previous pads exist"
+
+#: ../src/xpad-app.c:774
+msgid "Create a new pad on startup even if pads already exist"
+msgstr "Create a new pad on startup even if pads already exist"
+
+#: ../src/xpad-app.c:775
+msgid "Hide all pads"
+msgstr ""
+
+#: ../src/xpad-app.c:776
+msgid "Show all pads"
+msgstr ""
+
+#: ../src/xpad-app.c:777
+msgid "Toggle between show and hide all pads"
+msgstr ""
+
+#: ../src/xpad-app.c:778
+msgid "Create a new pad with the contents of a file"
+msgstr "Create a new pad with the contents of a file"
+
+#: ../src/xpad-app.c:778
+msgid "FILE"
+msgstr "FILE"
+
+#: ../src/xpad-app.c:779
+msgid "Close all pads"
+msgstr "Close all pads"
+
+#: ../src/xpad-app.c:810
+#, c-format
+msgid "Xpad %s"
+msgstr "Xpad %s"
+
+#: ../src/xpad-pad.c:154
+#, c-format
+msgid "Could not read file %s."
+msgstr "Could not read file %s."
+
+#: ../src/xpad-pad.c:653
+msgid "Delete this pad?"
+msgstr "Delete this pad?"
+
+#: ../src/xpad-pad.c:654
+msgid "All text of this pad will be irrevocably lost."
+msgstr "All text of this pad will be irrevocably lost."
+
+#: ../src/xpad-pad.c:685
+#, c-format
+msgid "'%s' Properties"
+msgstr "'%s' Properties"
+
+#: ../src/xpad-pad.c:1240
+msgid "Sticky notes"
+msgstr "Sticky notes"
+
+#. Translators: please translate this as your own name and optionally email
+#. like so: "Your Name <your@email.com>"
+#: ../src/xpad-pad.c:1259
+msgid "translator-credits"
+msgstr ""
+"David Lodge <dave@cirt.net>\n"
+"\n"
+"Launchpad Contributions:\n"
+"  David Lodge https://launchpad.net/~dave-cirt\n"
+"\n"
+"Launchpad Contributions:\n"
+"  David Lodge https://launchpad.net/~dave-cirt"
+
+#: ../src/xpad-pad.c:1500
+msgid "_Pad"
+msgstr "_Pad"
+
+#: ../src/xpad-pad.c:1509
+msgid "Show on _All Workspaces"
+msgstr "Show on _All Workspaces"
+
+#: ../src/xpad-pad.c:1517
+msgid "_Edit"
+msgstr "_Edit"
+
+#: ../src/xpad-pad.c:1540
+msgid "_View"
+msgstr "_View"
+
+#: ../src/xpad-pad.c:1547
+msgid "_Toolbar"
+msgstr "_Toolbar"
+
+#: ../src/xpad-pad.c:1548
+msgid "_Autohide Toolbar"
+msgstr "_Autohide Toolbar"
+
+#: ../src/xpad-pad.c:1550
+msgid "_Scrollbar"
+msgstr "_Scrollbar"
+
+#: ../src/xpad-pad.c:1551
+msgid "_Window Decorations"
+msgstr "_Window Decorations"
+
+#: ../src/xpad-pad.c:1554
+msgid "_Notes"
+msgstr "_Notes"
+
+#: ../src/xpad-pad.c:1562 ../src/xpad-tray.c:123
+msgid "_Show All"
+msgstr "_Show All"
+
+#: ../src/xpad-pad.c:1563 ../src/xpad-tray.c:130
+msgid "_Close All"
+msgstr "_Close All"
+
+#. The rest of the notes menu will get set up in the prep function below
+#: ../src/xpad-pad.c:1567
+msgid "_Help"
+msgstr "_Help"
+
+#: ../src/xpad-pad.c:1574
+msgid "_Contents"
+msgstr "_Contents"
+
+#: ../src/xpad-pad.c:1575
+msgid "_About"
+msgstr "_About"
+
+#: ../src/xpad-pad-properties.c:132 ../src/xpad-preferences.c:122
+msgid "Appearance"
+msgstr "Appearance"
+
+#: ../src/xpad-pad-properties.c:160
+msgid "Use font from xpad preferences"
+msgstr "Use font from xpad preferences"
+
+#: ../src/xpad-pad-properties.c:161 ../src/xpad-preferences.c:150
+msgid "Use this font:"
+msgstr "Use this font:"
+
+#: ../src/xpad-pad-properties.c:162
+msgid "Use colors from xpad preferences"
+msgstr "Use colours from xpad preferences"
+
+#: ../src/xpad-pad-properties.c:163 ../src/xpad-preferences.c:152
+msgid "Use these colors:"
+msgstr "Use these colours:"
+
+#: ../src/xpad-pad-properties.c:171 ../src/xpad-preferences.c:160
+msgid "Background:"
+msgstr "Background:"
+
+#: ../src/xpad-pad-properties.c:179 ../src/xpad-preferences.c:168
+msgid "Foreground:"
+msgstr "Foreground:"
+
+#: ../src/xpad-pad-properties.c:199 ../src/xpad-preferences.c:192
+msgid "Set Foreground Color"
+msgstr "Set Foreground Colour"
+
+#: ../src/xpad-pad-properties.c:200 ../src/xpad-preferences.c:193
+msgid "Set Background Color"
+msgstr "Set Background Colour"
+
+#: ../src/xpad-pad-properties.c:201 ../src/xpad-preferences.c:194
+msgid "Set Font"
+msgstr "Set Font"
+
+#: ../src/xpad-preferences.c:149
+msgid "Use font from theme"
+msgstr "Use font from theme"
+
+#: ../src/xpad-preferences.c:151
+msgid "Use colors from theme"
+msgstr "Use colours from theme"
+
+#: ../src/xpad-preferences.c:179
+msgid "_Edit lock"
+msgstr "_Edit lock"
+
+#: ../src/xpad-preferences.c:180
+msgid "_Pads start on all workspaces"
+msgstr "_Pads start on all workspaces"
+
+#: ../src/xpad-preferences.c:181
+msgid "_Confirm pad deletion"
+msgstr "_Confirm pad deletion"
+
+#: ../src/xpad-preferences.c:187
+msgid "Xpad Preferences"
+msgstr "Xpad Preferences"
+
+#: ../src/xpad-preferences.c:252
+msgid "Options"
+msgstr "Options"
+
+#: ../src/xpad-toolbar.c:74
+msgid "Clear Pad Contents"
+msgstr "Clear Pad Contents"
+
+#: ../src/xpad-toolbar.c:74
+msgid "Add C_lear to Toolbar"
+msgstr "Add C_lear to Toolbar"
+
+#: ../src/xpad-toolbar.c:75
+msgid "Close and Save Pad"
+msgstr "Close and Save Pad"
+
+#: ../src/xpad-toolbar.c:75
+msgid "Add _Close to Toolbar"
+msgstr "Add _Close to Toolbar"
+
+#: ../src/xpad-toolbar.c:76
+msgid "Delete Pad"
+msgstr "Delete Pad"
+
+#: ../src/xpad-toolbar.c:76
+msgid "Add _Delete to Toolbar"
+msgstr "Add _Delete to Toolbar"
+
+#: ../src/xpad-toolbar.c:77
+msgid "Open New Pad"
+msgstr "Open New Pad"
+
+#: ../src/xpad-toolbar.c:77
+msgid "Add _New to Toolbar"
+msgstr "Add _New to Toolbar"
+
+#: ../src/xpad-toolbar.c:78
+msgid "Edit Preferences"
+msgstr "Edit Preferences"
+
+#: ../src/xpad-toolbar.c:78
+msgid "Add Pr_eferences to Toolbar"
+msgstr "Add Pr_eferences to Toolbar"
+
+#: ../src/xpad-toolbar.c:79
+msgid "Edit Pad Properties"
+msgstr "Edit Pad Properties"
+
+#: ../src/xpad-toolbar.c:79
+msgid "Add Proper_ties to Toolbar"
+msgstr "Add Proper_ties to Toolbar"
+
+#: ../src/xpad-toolbar.c:80
+msgid "Close All Pads"
+msgstr "Close All Pads"
+
+#: ../src/xpad-toolbar.c:80
+msgid "Add Close _All to Toolbar"
+msgstr ""
+
+#: ../src/xpad-toolbar.c:81
+msgid "Add a Se_parator to Toolbar"
+msgstr "Add a Se_parator to Toolbar"
+
+#: ../src/xpad-toolbar.c:538
+msgid "_Remove From Toolbar"
+msgstr "_Remove From Toolbar"
+
+#: ../src/xpad-toolbar.c:548
+msgid "_Move"
+msgstr "_Move"
+
+#: ../xpad.desktop.in.h:1
+msgid "Jot down notes for later"
+msgstr "Jot down notes for later"
+
+#: ../xpad.desktop.in.h:2
+msgid "Sticky Notes"
+msgstr "Sticky Notes"

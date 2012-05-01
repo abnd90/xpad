@@ -1,0 +1,364 @@
+# Translation of xpad-2.11.nl to Dutch.
+# Copyright (C) 2004, 2007 Free Software Foundation, Inc.
+# This file is distributed under the same license as the xpad package.
+#
+# Elros Cyriatan <cyriatan@fastmail.fm>, 2003.
+# Benno Schulenberg <benno@vertaalt.nl>, 2007.
+msgid ""
+msgstr ""
+"Project-Id-Version: xpad 2.11\n"
+"Report-Msgid-Bugs-To: xpad-devel@lists.sourceforge.net\n"
+"POT-Creation-Date: 2011-11-14 11:41-0500\n"
+"PO-Revision-Date: 2009-01-11 17:24+0000\n"
+"Last-Translator: Benno Schulenberg <benno@vertaalt.nl>\n"
+"Language-Team: Dutch <vertaling@vrijschrift.org>\n"
+"Language: nl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2009-05-11 01:52+0000\n"
+"X-Generator: Launchpad (build Unknown)\n"
+
+#: ../src/fio.c:128
+#, c-format
+msgid "Could not write to file %s: %s"
+msgstr ""
+
+#: ../src/help.c:49
+msgid ""
+"Each xpad session consists of one or more open pads.  These pads are "
+"basically sticky notes on your desktop in which you can write memos."
+msgstr ""
+
+#: ../src/help.c:52
+msgid ""
+"<b>To move a pad</b>, left drag on the toolbar, right drag on the resizer in "
+"the bottom right, or hold down CTRL while left dragging anywhere on the pad."
+msgstr ""
+
+#: ../src/help.c:55
+msgid ""
+"<b>To resize a pad</b>, left drag on the resizer or hold down CTRL while "
+"right dragging anywhere on the pad."
+msgstr ""
+
+#: ../src/help.c:57
+msgid ""
+"<b>To change color settings</b>, right click on a pad and choose Edit-"
+">Preferences."
+msgstr ""
+
+#: ../src/help.c:59
+msgid ""
+"Most actions are available throught the popup menu that appears when you "
+"right click on a pad.  Try it out and enjoy."
+msgstr ""
+
+#: ../src/help.c:62
+msgid "Please send comments or bug reports to xpad-devel@lists.sourceforge.net"
+msgstr ""
+
+#: ../src/help.c:73
+msgid "Help"
+msgstr ""
+
+#: ../src/xpad-app.c:131
+msgid "Xpad is a graphical program.  Please run it from your desktop."
+msgstr "Xpad is een grafisch programma; draai het in een grafische omgeving."
+
+#: ../src/xpad-app.c:136 ../xpad.desktop.in.h:3
+msgid "Xpad"
+msgstr "Xpad"
+
+#: ../src/xpad-app.c:457
+#, c-format
+msgid "Could not open directory %s."
+msgstr "Kan map %s niet openen."
+
+#: ../src/xpad-app.c:460
+msgid ""
+"This directory is needed to store preference and pad information.  Xpad will "
+"close now."
+msgstr ""
+"Deze map is nodig om voorkeuren en memo's in op te slaan.  Xpad sluit nu af."
+
+#: ../src/xpad-app.c:767
+msgid "Show version number and quit"
+msgstr "Versienummer tonen en stoppen"
+
+#: ../src/xpad-app.c:768
+msgid "Don't create a new pad on startup if no previous pads exist"
+msgstr ""
+"Bij starten geen nieuw memoblaadje aanmaken\n"
+"                                    als er nog geen bestaat"
+
+#: ../src/xpad-app.c:774
+msgid "Create a new pad on startup even if pads already exist"
+msgstr "Bij starten altijd een nieuw blaadje aanmaken"
+
+#: ../src/xpad-app.c:775
+msgid "Hide all pads"
+msgstr ""
+
+#: ../src/xpad-app.c:776
+msgid "Show all pads"
+msgstr ""
+
+#: ../src/xpad-app.c:777
+msgid "Toggle between show and hide all pads"
+msgstr ""
+
+#: ../src/xpad-app.c:778
+msgid "Create a new pad with the contents of a file"
+msgstr ""
+"Een nieuw memo aanmaken met de inhoud van\n"
+"                                    dit bestand"
+
+#: ../src/xpad-app.c:778
+msgid "FILE"
+msgstr "BESTAND"
+
+#: ../src/xpad-app.c:779
+msgid "Close all pads"
+msgstr "Alle memo's opslaan en Xpad afsluiten"
+
+#: ../src/xpad-app.c:810
+#, c-format
+msgid "Xpad %s"
+msgstr "Xpad %s"
+
+#: ../src/xpad-pad.c:154
+#, c-format
+msgid "Could not read file %s."
+msgstr "Kan bestand %s niet lezen."
+
+#: ../src/xpad-pad.c:653
+msgid "Delete this pad?"
+msgstr "Dit memo verwijderen?"
+
+#: ../src/xpad-pad.c:654
+msgid "All text of this pad will be irrevocably lost."
+msgstr "Alle tekst van dit memo zal onherstelbaar verloren gaan."
+
+#: ../src/xpad-pad.c:685
+#, c-format
+msgid "'%s' Properties"
+msgstr "Eigenschappen van '%s'"
+
+#: ../src/xpad-pad.c:1240
+msgid "Sticky notes"
+msgstr "Memo's"
+
+#. Translators: please translate this as your own name and optionally email
+#. like so: "Your Name <your@email.com>"
+#: ../src/xpad-pad.c:1259
+msgid "translator-credits"
+msgstr ""
+"Benno Schulenberg <benno@vertaalt.nl>\n"
+"\n"
+"Launchpad Contributions:\n"
+"  Benno Schulenberg https://launchpad.net/~bennoschulenberg\n"
+"\n"
+"Launchpad Contributions:\n"
+"  Benno Schulenberg https://launchpad.net/~bennoschulenberg"
+
+#: ../src/xpad-pad.c:1500
+msgid "_Pad"
+msgstr "_Memo"
+
+#: ../src/xpad-pad.c:1509
+msgid "Show on _All Workspaces"
+msgstr "_Op alle werkbladen"
+
+#: ../src/xpad-pad.c:1517
+msgid "_Edit"
+msgstr "Be_werken"
+
+#: ../src/xpad-pad.c:1540
+msgid "_View"
+msgstr "Beel_d"
+
+#: ../src/xpad-pad.c:1547
+msgid "_Toolbar"
+msgstr "_Werkbalk"
+
+#: ../src/xpad-pad.c:1548
+msgid "_Autohide Toolbar"
+msgstr "Werkbalk _auto-verbergen"
+
+#: ../src/xpad-pad.c:1550
+msgid "_Scrollbar"
+msgstr "_Schuifbalk"
+
+#: ../src/xpad-pad.c:1551
+msgid "_Window Decorations"
+msgstr "_Vensterranden"
+
+#: ../src/xpad-pad.c:1554
+msgid "_Notes"
+msgstr "_Notities"
+
+#: ../src/xpad-pad.c:1562 ../src/xpad-tray.c:123
+msgid "_Show All"
+msgstr "Alle _weergeven"
+
+#: ../src/xpad-pad.c:1563 ../src/xpad-tray.c:130
+msgid "_Close All"
+msgstr "Alle _sluiten"
+
+#. The rest of the notes menu will get set up in the prep function below
+#: ../src/xpad-pad.c:1567
+msgid "_Help"
+msgstr "_Hulp"
+
+#: ../src/xpad-pad.c:1574
+msgid "_Contents"
+msgstr "_Inhoud"
+
+#: ../src/xpad-pad.c:1575
+msgid "_About"
+msgstr "In_fo"
+
+#: ../src/xpad-pad-properties.c:132 ../src/xpad-preferences.c:122
+msgid "Appearance"
+msgstr "Weergave"
+
+#: ../src/xpad-pad-properties.c:160
+msgid "Use font from xpad preferences"
+msgstr "Lettertype uit Xpad-voorkeuren gebruiken"
+
+#: ../src/xpad-pad-properties.c:161 ../src/xpad-preferences.c:150
+msgid "Use this font:"
+msgstr "Dit lettertype gebruiken:"
+
+#: ../src/xpad-pad-properties.c:162
+msgid "Use colors from xpad preferences"
+msgstr "Kleuren uit Xpad-voorkeuren gebruiken"
+
+#: ../src/xpad-pad-properties.c:163 ../src/xpad-preferences.c:152
+msgid "Use these colors:"
+msgstr "Deze kleuren gebruiken:"
+
+#: ../src/xpad-pad-properties.c:171 ../src/xpad-preferences.c:160
+msgid "Background:"
+msgstr "Achtergrond:"
+
+#: ../src/xpad-pad-properties.c:179 ../src/xpad-preferences.c:168
+msgid "Foreground:"
+msgstr "Tekstkleur:"
+
+#: ../src/xpad-pad-properties.c:199 ../src/xpad-preferences.c:192
+msgid "Set Foreground Color"
+msgstr "Tekstkleur instellen"
+
+#: ../src/xpad-pad-properties.c:200 ../src/xpad-preferences.c:193
+msgid "Set Background Color"
+msgstr "Achtergrondkleur instellen"
+
+#: ../src/xpad-pad-properties.c:201 ../src/xpad-preferences.c:194
+msgid "Set Font"
+msgstr "Lettertype instellen"
+
+#: ../src/xpad-preferences.c:149
+msgid "Use font from theme"
+msgstr "Lettertype uit thema gebruiken"
+
+#: ../src/xpad-preferences.c:151
+msgid "Use colors from theme"
+msgstr "Kleuren uit thema gebruiken"
+
+#: ../src/xpad-preferences.c:179
+msgid "_Edit lock"
+msgstr "_Bewerken van memo's niet toestaan"
+
+#: ../src/xpad-preferences.c:180
+msgid "_Pads start on all workspaces"
+msgstr "_Memo's standaard op alle werkbladen"
+
+#: ../src/xpad-preferences.c:181
+msgid "_Confirm pad deletion"
+msgstr "_Verwijderen van een memo bevestigen"
+
+#: ../src/xpad-preferences.c:187
+msgid "Xpad Preferences"
+msgstr "Xpad-voorkeuren"
+
+#: ../src/xpad-preferences.c:252
+msgid "Options"
+msgstr "Opties"
+
+#: ../src/xpad-toolbar.c:74
+msgid "Clear Pad Contents"
+msgstr "Inhoud van memo wissen"
+
+#: ../src/xpad-toolbar.c:74
+msgid "Add C_lear to Toolbar"
+msgstr "_Wissen toevoegen aan werkbalk"
+
+#: ../src/xpad-toolbar.c:75
+msgid "Close and Save Pad"
+msgstr "Memo opslaan en sluiten"
+
+#: ../src/xpad-toolbar.c:75
+msgid "Add _Close to Toolbar"
+msgstr "Sl_uiten toevoegen aan werkbalk"
+
+#: ../src/xpad-toolbar.c:76
+msgid "Delete Pad"
+msgstr "Memo verwijderen"
+
+#: ../src/xpad-toolbar.c:76
+msgid "Add _Delete to Toolbar"
+msgstr "_Verwijderen toevoegen aan werkbalk"
+
+#: ../src/xpad-toolbar.c:77
+msgid "Open New Pad"
+msgstr "Nieuw memoblaadje"
+
+#: ../src/xpad-toolbar.c:77
+msgid "Add _New to Toolbar"
+msgstr "_Nieuw toevoegen aan werkbalk"
+
+#: ../src/xpad-toolbar.c:78
+msgid "Edit Preferences"
+msgstr "Voorkeuren bewerken"
+
+#: ../src/xpad-toolbar.c:78
+msgid "Add Pr_eferences to Toolbar"
+msgstr "Voor_keuren toevoegen aan werkbalk"
+
+#: ../src/xpad-toolbar.c:79
+msgid "Edit Pad Properties"
+msgstr "Memo-eigenschappen bewerken"
+
+#: ../src/xpad-toolbar.c:79
+msgid "Add Proper_ties to Toolbar"
+msgstr "_Eigenschappen toevoegen aan werkbalk"
+
+#: ../src/xpad-toolbar.c:80
+msgid "Close All Pads"
+msgstr "Alle memo's opslaan en Xpad afsluiten"
+
+#: ../src/xpad-toolbar.c:80
+msgid "Add Close _All to Toolbar"
+msgstr ""
+
+#: ../src/xpad-toolbar.c:81
+msgid "Add a Se_parator to Toolbar"
+msgstr "_Scheiding toevoegen aan werkbalk"
+
+#: ../src/xpad-toolbar.c:538
+msgid "_Remove From Toolbar"
+msgstr "_Verwijderen uit werkbalk"
+
+#: ../src/xpad-toolbar.c:548
+msgid "_Move"
+msgstr "Ver_plaatsen"
+
+#: ../xpad.desktop.in.h:1
+msgid "Jot down notes for later"
+msgstr "Notities maken voor later"
+
+#: ../xpad.desktop.in.h:2
+msgid "Sticky Notes"
+msgstr "Memo's"

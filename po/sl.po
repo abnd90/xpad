@@ -1,0 +1,303 @@
+# -*- mode:po; coding:utf-8; -*- Slovenian message catalogue for xpad.
+# Copyright (C) 2005 Free Software Foundation, Inc.
+# Matej Urbančič <matej.urban@gmail.com>, 2005.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: xpad-2.11\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2006-02-07 05:09-0500\n"
+"PO-Revision-Date: 2006-02-07 11:26+0100\n"
+"Last-Translator: Matej Urbančič <matej.urban@gmail.com>\n"
+"Language-Team: Slovenian <translation-team-sl@lists.sourceforge.net>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: Plural-Forms: Plural-Forms: Plural-Forms: nplurals=4; plural=(n%100==1 ? 1 : n%100==2 ? 2 : n%100==3 || n%100==4 ? 3 : 0)\n"
+"X-Poedit-Language: Slovenian\n"
+"X-Poedit-Country: SLOVENIA\n"
+"X-Poedit-SourceCharset: utf-8\n"
+
+#: ../src/fio.c:134
+#, c-format
+msgid "Could not write to file %s."
+msgstr "Ne morem pisati v datoteko %s."
+
+#: ../src/xpad-app.c:126
+msgid "Xpad is a graphical program.  Please run it from your desktop."
+msgstr "Xpad je grafični program.  Zaženi ga iz namizja."
+
+#: ../src/xpad-app.c:131 ../xpad.desktop.in.h:3
+msgid "Xpad"
+msgstr "Xpad"
+
+#: ../src/xpad-app.c:431
+#, c-format
+msgid "Could not open directory %s."
+msgstr "Ne morem odpreti mape %s."
+
+#: ../src/xpad-app.c:434
+msgid "This directory is needed to store preference and pad information.  Xpad will close now."
+msgstr "Ta mapa je potrebna za shranjevanje uporabniških izbir in informacij o lističih. Xpad se bo izključil."
+
+#: ../src/xpad-app.c:738
+msgid "Show version number and quit"
+msgstr "Pokaži verzijo in zaključi"
+
+#: ../src/xpad-app.c:739
+msgid "Hide existing pads on startup"
+msgstr "Skrij obstoječe lističe ob zagonu"
+
+#: ../src/xpad-app.c:740
+msgid "Don't create a new pad on startup if no previous pads exist"
+msgstr "Ne ustvari novega lističa ob zagonu, če že ne obstaja noben listič"
+
+#: ../src/xpad-app.c:746
+msgid "Create a new pad on startup even if pads already exist"
+msgstr "Ustvari nov listič ob zagonu tudi če drugi že obstajajo"
+
+#: ../src/xpad-app.c:747
+msgid "Create a new pad with the contents of a file"
+msgstr "Ustvari nov listič z vsebino datoteke"
+
+#: ../src/xpad-app.c:747
+msgid "FILE"
+msgstr "DATOTEKA"
+
+#: ../src/xpad-app.c:748
+msgid "Close all pads"
+msgstr "Zapri vse lističe"
+
+#: ../src/xpad-app.c:780
+#, c-format
+msgid "Xpad %s"
+msgstr "Xpad %s"
+
+#: ../src/xpad-pad.c:154
+#, c-format
+msgid "Could not read file %s."
+msgstr "Ne morem prebrati datoteke %s."
+
+#: ../src/xpad-pad.c:637
+msgid "Delete this pad?"
+msgstr "Odstranim ta listič?"
+
+#: ../src/xpad-pad.c:638
+msgid "All text of this pad will be irrevocably lost."
+msgstr "Ves tekst s tega lističa bo izgubljen."
+
+#: ../src/xpad-pad.c:669
+#, c-format
+msgid "'%s' Properties"
+msgstr "'%s' Lastnosti"
+
+#: ../src/xpad-pad.c:1209
+msgid "Sticky notes"
+msgstr "Lepljivi lističi"
+
+#. Translators: please translate this as your own name and optionally email
+#. like so: "Your Name <your@email.com>"
+#: ../src/xpad-pad.c:1228
+msgid "translator-credits"
+msgstr "prevajalec"
+
+#: ../src/xpad-pad.c:1449
+msgid "_Pad"
+msgstr "_Listič"
+
+#: ../src/xpad-pad.c:1458
+msgid "Show on _All Workspaces"
+msgstr "Prikaži na vseh namizjih"
+
+#: ../src/xpad-pad.c:1465
+msgid "_Edit"
+msgstr "_Uredi"
+
+#: ../src/xpad-pad.c:1478
+msgid "_View"
+msgstr "_Poglej"
+
+#: ../src/xpad-pad.c:1485
+msgid "_Toolbar"
+msgstr "_Orodni trak"
+
+#: ../src/xpad-pad.c:1486
+msgid "_Autohide Toolbar"
+msgstr "_Samodejno skrij orodni trak"
+
+#: ../src/xpad-pad.c:1488
+msgid "_Scrollbar"
+msgstr "_Drsnik"
+
+#: ../src/xpad-pad.c:1489
+msgid "_Window Decorations"
+msgstr "O_kraševanje oken"
+
+#: ../src/xpad-pad.c:1492
+msgid "_Notes"
+msgstr "Opo_mbe"
+
+#: ../src/xpad-pad.c:1500 ../src/xpad-tray.c:145
+msgid "_Show All"
+msgstr "Prikaži _vse"
+
+#: ../src/xpad-pad.c:1501 ../src/xpad-tray.c:152
+msgid "_Close All"
+msgstr "_Zapri vse"
+
+#. The rest of the notes menu will get set up in the prep function below
+#: ../src/xpad-pad.c:1505
+msgid "_Help"
+msgstr "Pomo_č"
+
+#: ../src/xpad-pad.c:1512
+msgid "_Contents"
+msgstr "_Vsebina"
+
+#: ../src/xpad-pad.c:1513
+msgid "_About"
+msgstr "O Pro_gramu"
+
+#: ../src/xpad-pad-properties.c:132 ../src/xpad-preferences.c:122
+msgid "Appearance"
+msgstr "Izgled"
+
+#: ../src/xpad-pad-properties.c:160
+msgid "Use font from xpad preferences"
+msgstr "Uporabi pisavo iz xpad izbora"
+
+#: ../src/xpad-pad-properties.c:161 ../src/xpad-preferences.c:150
+msgid "Use this font:"
+msgstr "Uporabi pisavo:"
+
+#: ../src/xpad-pad-properties.c:162
+msgid "Use colors from xpad preferences"
+msgstr "Uporabi barve iz xpad izbora"
+
+#: ../src/xpad-pad-properties.c:163 ../src/xpad-preferences.c:152
+msgid "Use these colors:"
+msgstr "Uporabi barve:"
+
+#: ../src/xpad-pad-properties.c:171 ../src/xpad-preferences.c:160
+msgid "Background:"
+msgstr "Ozadje:"
+
+#: ../src/xpad-pad-properties.c:179 ../src/xpad-preferences.c:168
+msgid "Foreground:"
+msgstr "Prednji tekst:"
+
+#: ../src/xpad-pad-properties.c:199 ../src/xpad-preferences.c:192
+msgid "Set Foreground Color"
+msgstr "Določi prednjo barvo"
+
+#: ../src/xpad-pad-properties.c:200 ../src/xpad-preferences.c:193
+msgid "Set Background Color"
+msgstr "Določi barvo ozadja"
+
+#: ../src/xpad-pad-properties.c:201 ../src/xpad-preferences.c:194
+msgid "Set Font"
+msgstr "Določi pisavo"
+
+#: ../src/xpad-preferences.c:149
+msgid "Use font from theme"
+msgstr "Uporabi pisavo teme"
+
+#: ../src/xpad-preferences.c:151
+msgid "Use colors from theme"
+msgstr "Uporabi barve teme"
+
+#: ../src/xpad-preferences.c:179
+msgid "_Edit lock"
+msgstr "Uredi zatič"
+
+#: ../src/xpad-preferences.c:180
+msgid "_Pads start on all workspaces"
+msgstr "Lističi se naložijo na vseh namizjih"
+
+#: ../src/xpad-preferences.c:181
+msgid "_Confirm pad deletion"
+msgstr "Potrdi brisanje lističa"
+
+#: ../src/xpad-preferences.c:187
+msgid "Xpad Preferences"
+msgstr "Xpad izbire"
+
+#: ../src/xpad-preferences.c:252
+msgid "Options"
+msgstr "Možnosti"
+
+#: ../src/xpad-toolbar.c:76
+msgid "Clear Pad Contents"
+msgstr "Počisti vsebino lističa"
+
+#: ../src/xpad-toolbar.c:76
+msgid "Add C_lear to Toolbar"
+msgstr "Dodaj _Počisti na orodno vrstico"
+
+#: ../src/xpad-toolbar.c:77
+msgid "Close and Save Pad"
+msgstr "Zapri in shrani listič"
+
+#: ../src/xpad-toolbar.c:77
+msgid "Add _Close to Toolbar"
+msgstr "Dodaj _Zapri na orodno vrstico"
+
+#: ../src/xpad-toolbar.c:78
+msgid "Delete Pad"
+msgstr "Izbriši listič"
+
+#: ../src/xpad-toolbar.c:78
+msgid "Add _Delete to Toolbar"
+msgstr "Dodaj _Zbriši na Orodni trak"
+
+#: ../src/xpad-toolbar.c:79
+msgid "Open New Pad"
+msgstr "Odpri nov listič"
+
+#: ../src/xpad-toolbar.c:79
+msgid "Add _New to Toolbar"
+msgstr "Dodaj _Nov na Orodni trak"
+
+#: ../src/xpad-toolbar.c:80
+msgid "Edit Preferences"
+msgstr "Uredi lastnosti"
+
+#: ../src/xpad-toolbar.c:80
+msgid "Add Pr_eferences to Toolbar"
+msgstr "Dodaj izbirnik na Orodni trak"
+
+#: ../src/xpad-toolbar.c:81
+msgid "Edit Pad Properties"
+msgstr "Ur&edi lastnosti lističa"
+
+#: ../src/xpad-toolbar.c:81
+msgid "Add Proper_ties to Toolbar"
+msgstr "Dodaj Lastnosti na Orodni trak"
+
+#: ../src/xpad-toolbar.c:82
+msgid "Close All Pads"
+msgstr "Zapri vse lističe"
+
+#: ../src/xpad-toolbar.c:82
+msgid "Add _Quit to Toolbar"
+msgstr "Dodaj_Izhod na orodno vrstico"
+
+#: ../src/xpad-toolbar.c:83
+msgid "Add a Se_parator to Toolbar"
+msgstr "Dodaj _Ločnik na Orodni trak"
+
+#: ../src/xpad-toolbar.c:545
+msgid "_Remove From Toolbar"
+msgstr "_Odstrani z orodnega traku"
+
+#: ../src/xpad-toolbar.c:555
+msgid "_Move"
+msgstr "_ Premakni"
+
+#: ../xpad.desktop.in.h:1
+msgid "Jot down notes for later"
+msgstr "Zapiši sporočila za kasneje"
+
+#: ../xpad.desktop.in.h:2
+msgid "Sticky Notes"
+msgstr "Lepljivi lističi"

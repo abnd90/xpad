@@ -1,0 +1,25 @@
+ideally, next release will see:
+-------------------------------
+
+
+on the horizon:
+---------------
+creating new notes with preset content (from command line, from files, from middle click)
+continue even if ~/.config/xpad is unavailable
+transparency
+documentation rewrite
+
+
+when I get to it:
+-----------------
+arbitrary drawing (would probably want xinput support)
+undo
+
+
+ideas that I don't currently plan to implement:
+-----------------------------------------------
+applets for various WMs (hopefully we can standardize on eggtray)
+
+
+Let us know at xpad-devel@lists.sourceforge.net
+what you would like to see!

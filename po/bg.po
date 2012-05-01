@@ -1,0 +1,368 @@
+# Bulgarian translation of xpad.
+# Copyright (C) 2005, 2006 Free Software Foundation, Inc.
+# This file is distributed under the same license as the xpad package.
+# Yavor Doganov <yavor@doganov.org>, 2005, 2006.
+#
+#
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: xpad 2.11\n"
+"Report-Msgid-Bugs-To: xpad-devel@lists.sourceforge.net\n"
+"POT-Creation-Date: 2011-11-14 11:41-0500\n"
+"PO-Revision-Date: 2009-01-11 17:24+0000\n"
+"Last-Translator: Michael Terry <michael.terry@canonical.com>\n"
+"Language-Team: Bulgarian <dict@fsa-bg.org>\n"
+"Language: bg\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2009-05-11 01:52+0000\n"
+"X-Generator: Launchpad (build Unknown)\n"
+
+#: ../src/fio.c:128
+#, c-format
+msgid "Could not write to file %s: %s"
+msgstr ""
+
+#: ../src/help.c:49
+msgid ""
+"Each xpad session consists of one or more open pads.  These pads are "
+"basically sticky notes on your desktop in which you can write memos."
+msgstr ""
+
+#: ../src/help.c:52
+msgid ""
+"<b>To move a pad</b>, left drag on the toolbar, right drag on the resizer in "
+"the bottom right, or hold down CTRL while left dragging anywhere on the pad."
+msgstr ""
+
+#: ../src/help.c:55
+msgid ""
+"<b>To resize a pad</b>, left drag on the resizer or hold down CTRL while "
+"right dragging anywhere on the pad."
+msgstr ""
+
+#: ../src/help.c:57
+msgid ""
+"<b>To change color settings</b>, right click on a pad and choose Edit-"
+">Preferences."
+msgstr ""
+
+#: ../src/help.c:59
+msgid ""
+"Most actions are available throught the popup menu that appears when you "
+"right click on a pad.  Try it out and enjoy."
+msgstr ""
+
+#: ../src/help.c:62
+msgid "Please send comments or bug reports to xpad-devel@lists.sourceforge.net"
+msgstr ""
+
+#: ../src/help.c:73
+msgid "Help"
+msgstr ""
+
+#: ../src/xpad-app.c:131
+msgid "Xpad is a graphical program.  Please run it from your desktop."
+msgstr "Xpad е графична програма.  Стартирайте я от работната среда."
+
+#: ../src/xpad-app.c:136 ../xpad.desktop.in.h:3
+msgid "Xpad"
+msgstr "Xpad"
+
+#: ../src/xpad-app.c:457
+#, c-format
+msgid "Could not open directory %s."
+msgstr "Не може да бъде отворена папка %s."
+
+#: ../src/xpad-app.c:460
+msgid ""
+"This directory is needed to store preference and pad information.  Xpad will "
+"close now."
+msgstr ""
+"Тази папка е нужна, за да се запазят настройките и информацията за "
+"бележките.  Xpad ще се затвори."
+
+#: ../src/xpad-app.c:767
+msgid "Show version number and quit"
+msgstr "Показване на версията и изход"
+
+#: ../src/xpad-app.c:768
+msgid "Don't create a new pad on startup if no previous pads exist"
+msgstr ""
+"Да не се създава нова бележка при стартиране, ако няма съществуващи такива"
+
+#: ../src/xpad-app.c:774
+msgid "Create a new pad on startup even if pads already exist"
+msgstr "Създаване на нова бележка при стартиране дори ако такива съществуват"
+
+#: ../src/xpad-app.c:775
+msgid "Hide all pads"
+msgstr ""
+
+#: ../src/xpad-app.c:776
+msgid "Show all pads"
+msgstr ""
+
+#: ../src/xpad-app.c:777
+msgid "Toggle between show and hide all pads"
+msgstr ""
+
+#: ../src/xpad-app.c:778
+msgid "Create a new pad with the contents of a file"
+msgstr "Създаване на нова бележка със съдържанието на файл"
+
+#: ../src/xpad-app.c:778
+msgid "FILE"
+msgstr "ФАЙЛ"
+
+#: ../src/xpad-app.c:779
+msgid "Close all pads"
+msgstr "Затваряне на всички бележки"
+
+#: ../src/xpad-app.c:810
+#, c-format
+msgid "Xpad %s"
+msgstr "Xpad %s"
+
+#: ../src/xpad-pad.c:154
+#, c-format
+msgid "Could not read file %s."
+msgstr "Не може да бъде прочетен файл %s."
+
+#: ../src/xpad-pad.c:653
+msgid "Delete this pad?"
+msgstr "Изтриване на тази бележка?"
+
+#: ../src/xpad-pad.c:654
+msgid "All text of this pad will be irrevocably lost."
+msgstr "Целият текст от бележката ще бъде безвъзвратно загубен."
+
+#: ../src/xpad-pad.c:685
+#, c-format
+msgid "'%s' Properties"
+msgstr "Настройки на „%s“"
+
+#: ../src/xpad-pad.c:1240
+msgid "Sticky notes"
+msgstr "Лепкави бележки"
+
+#. Translators: please translate this as your own name and optionally email
+#. like so: "Your Name <your@email.com>"
+#: ../src/xpad-pad.c:1259
+msgid "translator-credits"
+msgstr ""
+"Явор Доганов <yavor@doganov.org>\n"
+"\n"
+"Проектът за превод на GNOME има нужда от подкрепа.\n"
+"Научете повече за нас на http://gnome.cult.bg\n"
+"Докладвайте за грешки на http://gnome.cult.bg/bugs\n"
+"\n"
+"Launchpad Contributions:\n"
+"  Yavor Doganov https://launchpad.net/~yavor\n"
+"\n"
+"Launchpad Contributions:\n"
+"  Michael Terry https://launchpad.net/~mterry\n"
+"  Yavor Doganov https://launchpad.net/~yavor"
+
+#: ../src/xpad-pad.c:1500
+msgid "_Pad"
+msgstr "_Бележка"
+
+#: ../src/xpad-pad.c:1509
+msgid "Show on _All Workspaces"
+msgstr "Показване на _всички работни места"
+
+#: ../src/xpad-pad.c:1517
+msgid "_Edit"
+msgstr "_Редактиране"
+
+#: ../src/xpad-pad.c:1540
+msgid "_View"
+msgstr "_Изглед"
+
+#: ../src/xpad-pad.c:1547
+msgid "_Toolbar"
+msgstr "_Лента с инструменти"
+
+#: ../src/xpad-pad.c:1548
+msgid "_Autohide Toolbar"
+msgstr "_Автоматично скриване на лентата с инструменти"
+
+#: ../src/xpad-pad.c:1550
+msgid "_Scrollbar"
+msgstr "Лента за п_релистване"
+
+#: ../src/xpad-pad.c:1551
+msgid "_Window Decorations"
+msgstr "_Рамки на прозореца"
+
+#: ../src/xpad-pad.c:1554
+msgid "_Notes"
+msgstr "_Бележки"
+
+#: ../src/xpad-pad.c:1562 ../src/xpad-tray.c:123
+msgid "_Show All"
+msgstr "Показване на _всички"
+
+#: ../src/xpad-pad.c:1563 ../src/xpad-tray.c:130
+msgid "_Close All"
+msgstr "_Затваряне на всички"
+
+#. The rest of the notes menu will get set up in the prep function below
+#: ../src/xpad-pad.c:1567
+msgid "_Help"
+msgstr "_Помощ"
+
+#: ../src/xpad-pad.c:1574
+msgid "_Contents"
+msgstr "_Ръководство"
+
+#: ../src/xpad-pad.c:1575
+msgid "_About"
+msgstr "_Относно"
+
+#: ../src/xpad-pad-properties.c:132 ../src/xpad-preferences.c:122
+msgid "Appearance"
+msgstr "Изглед"
+
+#: ../src/xpad-pad-properties.c:160
+msgid "Use font from xpad preferences"
+msgstr "Използване на шрифт от настройките на Xpad"
+
+#: ../src/xpad-pad-properties.c:161 ../src/xpad-preferences.c:150
+msgid "Use this font:"
+msgstr "Използване на шрифт:"
+
+#: ../src/xpad-pad-properties.c:162
+msgid "Use colors from xpad preferences"
+msgstr "Използване на цветове от настройките на Xpad"
+
+#: ../src/xpad-pad-properties.c:163 ../src/xpad-preferences.c:152
+msgid "Use these colors:"
+msgstr "Използване на цветове:"
+
+#: ../src/xpad-pad-properties.c:171 ../src/xpad-preferences.c:160
+msgid "Background:"
+msgstr "Фон:"
+
+#: ../src/xpad-pad-properties.c:179 ../src/xpad-preferences.c:168
+msgid "Foreground:"
+msgstr "Текст:"
+
+#: ../src/xpad-pad-properties.c:199 ../src/xpad-preferences.c:192
+msgid "Set Foreground Color"
+msgstr "Избор на цвят на текста"
+
+#: ../src/xpad-pad-properties.c:200 ../src/xpad-preferences.c:193
+msgid "Set Background Color"
+msgstr "Избор на цвят на фона"
+
+#: ../src/xpad-pad-properties.c:201 ../src/xpad-preferences.c:194
+msgid "Set Font"
+msgstr "Избор на шрифт"
+
+#: ../src/xpad-preferences.c:149
+msgid "Use font from theme"
+msgstr "Използване на шрифт от темата"
+
+#: ../src/xpad-preferences.c:151
+msgid "Use colors from theme"
+msgstr "Използване на цветове от темата"
+
+#: ../src/xpad-preferences.c:179
+msgid "_Edit lock"
+msgstr "_Заключване за редактиране"
+
+#: ../src/xpad-preferences.c:180
+msgid "_Pads start on all workspaces"
+msgstr "_Бележките се стартират на всички работни места"
+
+#: ../src/xpad-preferences.c:181
+msgid "_Confirm pad deletion"
+msgstr "_Потвърждение при изтриване на бележка"
+
+#: ../src/xpad-preferences.c:187
+msgid "Xpad Preferences"
+msgstr "Предпочитания на Xpad"
+
+#: ../src/xpad-preferences.c:252
+msgid "Options"
+msgstr "Опции"
+
+#: ../src/xpad-toolbar.c:74
+msgid "Clear Pad Contents"
+msgstr "Изчистване на съдържанието на бележката"
+
+#: ../src/xpad-toolbar.c:74
+msgid "Add C_lear to Toolbar"
+msgstr "Добавяне на „_Изчистване“ към лентата с инструменти"
+
+#: ../src/xpad-toolbar.c:75
+msgid "Close and Save Pad"
+msgstr "Затваряне и запазване на бележката"
+
+#: ../src/xpad-toolbar.c:75
+msgid "Add _Close to Toolbar"
+msgstr "Добавяне на „_Затваряне“ към лентата с инструменти"
+
+#: ../src/xpad-toolbar.c:76
+msgid "Delete Pad"
+msgstr "Изтриване на бележката"
+
+#: ../src/xpad-toolbar.c:76
+msgid "Add _Delete to Toolbar"
+msgstr "Добавяне на „Изт_риване“ към лентата с инструменти"
+
+#: ../src/xpad-toolbar.c:77
+msgid "Open New Pad"
+msgstr "Отваряне на нова бележка"
+
+#: ../src/xpad-toolbar.c:77
+msgid "Add _New to Toolbar"
+msgstr "Добавяне на „_Нова“ към лентата с инструменти"
+
+#: ../src/xpad-toolbar.c:78
+msgid "Edit Preferences"
+msgstr "Редактиране на предпочитанията"
+
+#: ../src/xpad-toolbar.c:78
+msgid "Add Pr_eferences to Toolbar"
+msgstr "Добавяне на „Предпо_читания“ към лентата с инструменти"
+
+#: ../src/xpad-toolbar.c:79
+msgid "Edit Pad Properties"
+msgstr "Редактиране на настройките на бележката"
+
+#: ../src/xpad-toolbar.c:79
+msgid "Add Proper_ties to Toolbar"
+msgstr "Добавяне на „_Настройки“ към лентата с инструменти"
+
+#: ../src/xpad-toolbar.c:80
+msgid "Close All Pads"
+msgstr "Затваряне на всички бележки"
+
+#: ../src/xpad-toolbar.c:80
+msgid "Add Close _All to Toolbar"
+msgstr ""
+
+#: ../src/xpad-toolbar.c:81
+msgid "Add a Se_parator to Toolbar"
+msgstr "Добавяне на разделител към лентата с инструменти"
+
+#: ../src/xpad-toolbar.c:538
+msgid "_Remove From Toolbar"
+msgstr "_Премахване от лентата с инструменти"
+
+#: ../src/xpad-toolbar.c:548
+msgid "_Move"
+msgstr "П_реместване"
+
+#: ../xpad.desktop.in.h:1
+msgid "Jot down notes for later"
+msgstr "Запазване на бележките за по-късно"
+
+#: ../xpad.desktop.in.h:2
+msgid "Sticky Notes"
+msgstr "Лепкави бележки"

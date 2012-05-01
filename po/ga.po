@@ -1,0 +1,362 @@
+# Irish translations for xpad
+# Copyright (C) 2003 Free Software Foundation, Inc.
+# This file is distributed under the same license as the xpad package.
+# Kevin Patrick Scannell <scannell@SLU.EDU>, 2003.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: xpad 2.11\n"
+"Report-Msgid-Bugs-To: xpad-devel@lists.sourceforge.net\n"
+"POT-Creation-Date: 2011-11-14 11:41-0500\n"
+"PO-Revision-Date: 2009-01-11 17:24+0000\n"
+"Last-Translator: Michael Terry <michael.terry@canonical.com>\n"
+"Language-Team: Irish <gaeilge-gnulinux@lists.sourceforge.net>\n"
+"Language: ga\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=ISO-8859-1\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2009-05-11 01:52+0000\n"
+"X-Generator: Launchpad (build Unknown)\n"
+
+#: ../src/fio.c:128
+#, c-format
+msgid "Could not write to file %s: %s"
+msgstr ""
+
+#: ../src/help.c:49
+msgid ""
+"Each xpad session consists of one or more open pads.  These pads are "
+"basically sticky notes on your desktop in which you can write memos."
+msgstr ""
+
+#: ../src/help.c:52
+msgid ""
+"<b>To move a pad</b>, left drag on the toolbar, right drag on the resizer in "
+"the bottom right, or hold down CTRL while left dragging anywhere on the pad."
+msgstr ""
+
+#: ../src/help.c:55
+msgid ""
+"<b>To resize a pad</b>, left drag on the resizer or hold down CTRL while "
+"right dragging anywhere on the pad."
+msgstr ""
+
+#: ../src/help.c:57
+msgid ""
+"<b>To change color settings</b>, right click on a pad and choose Edit-"
+">Preferences."
+msgstr ""
+
+#: ../src/help.c:59
+msgid ""
+"Most actions are available throught the popup menu that appears when you "
+"right click on a pad.  Try it out and enjoy."
+msgstr ""
+
+#: ../src/help.c:62
+msgid "Please send comments or bug reports to xpad-devel@lists.sourceforge.net"
+msgstr ""
+
+#: ../src/help.c:73
+msgid "Help"
+msgstr ""
+
+#: ../src/xpad-app.c:131
+msgid "Xpad is a graphical program.  Please run it from your desktop."
+msgstr "Is clár grafach é Xpad. Rith ó do dheasc, le do thoil."
+
+#: ../src/xpad-app.c:136 ../xpad.desktop.in.h:3
+msgid "Xpad"
+msgstr "Xpad"
+
+#: ../src/xpad-app.c:457
+#, c-format
+msgid "Could not open directory %s."
+msgstr "Níorbh fhéidir an chomhadlann %s a oscailt."
+
+#: ../src/xpad-app.c:460
+msgid ""
+"This directory is needed to store preference and pad information.  Xpad will "
+"close now."
+msgstr ""
+"Ní foláir don chomhadlann seo a bheith oscailte le haghaidh eolas faoi na "
+"ceapa agus do shainroghanna.  Druidfidh Xpad anois."
+
+#: ../src/xpad-app.c:767
+msgid "Show version number and quit"
+msgstr "Taispeáin an uimhir leagain agus scoir"
+
+#: ../src/xpad-app.c:768
+msgid "Don't create a new pad on startup if no previous pads exist"
+msgstr "Ná cruthaigh ceap nua ag am tosaithe mura bhfuil ceap ann cheana féin"
+
+#: ../src/xpad-app.c:774
+msgid "Create a new pad on startup even if pads already exist"
+msgstr "Cruthaigh ceap nua ag am tosaithe fiú má tá ceapa ann cheana féin"
+
+#: ../src/xpad-app.c:775
+msgid "Hide all pads"
+msgstr ""
+
+#: ../src/xpad-app.c:776
+msgid "Show all pads"
+msgstr ""
+
+#: ../src/xpad-app.c:777
+msgid "Toggle between show and hide all pads"
+msgstr ""
+
+#: ../src/xpad-app.c:778
+msgid "Create a new pad with the contents of a file"
+msgstr "Cruthaigh ceap nua le hinneachar comhaid ann"
+
+#: ../src/xpad-app.c:778
+msgid "FILE"
+msgstr "COMHAD"
+
+#: ../src/xpad-app.c:779
+msgid "Close all pads"
+msgstr "Dún gach ceap nótaí"
+
+#: ../src/xpad-app.c:810
+#, c-format
+msgid "Xpad %s"
+msgstr "Xpad %s"
+
+#: ../src/xpad-pad.c:154
+#, c-format
+msgid "Could not read file %s."
+msgstr "Níorbh fhéidir comhad %s a léamh."
+
+#: ../src/xpad-pad.c:653
+msgid "Delete this pad?"
+msgstr "Ar mhaith leat an ceap seo a scriosadh?"
+
+#: ../src/xpad-pad.c:654
+msgid "All text of this pad will be irrevocably lost."
+msgstr "Scriosfaidh an téacs uile atá sa cheap seo, gan fáil ar ais."
+
+#: ../src/xpad-pad.c:685
+#, c-format
+msgid "'%s' Properties"
+msgstr "'%s' Airíonna"
+
+#: ../src/xpad-pad.c:1240
+msgid "Sticky notes"
+msgstr "Nótaí greamaitheacha"
+
+#. Translators: please translate this as your own name and optionally email
+#. like so: "Your Name <your@email.com>"
+#: ../src/xpad-pad.c:1259
+msgid "translator-credits"
+msgstr ""
+"Kevin Scannell <scannell@slu.edu>\n"
+"\n"
+"Launchpad Contributions:\n"
+"  Kevin Patrick Scannell https://launchpad.net/~scannell\n"
+"\n"
+"Launchpad Contributions:\n"
+"  Kevin Patrick Scannell https://launchpad.net/~scannell\n"
+"  Michael Terry https://launchpad.net/~mterry"
+
+#: ../src/xpad-pad.c:1500
+msgid "_Pad"
+msgstr "Cea_p"
+
+#: ../src/xpad-pad.c:1509
+msgid "Show on _All Workspaces"
+msgstr "Taispeáin i n_Gach Spás Oibre"
+
+#: ../src/xpad-pad.c:1517
+msgid "_Edit"
+msgstr "_Eagar"
+
+#: ../src/xpad-pad.c:1540
+msgid "_View"
+msgstr "_Amharc"
+
+#: ../src/xpad-pad.c:1547
+msgid "_Toolbar"
+msgstr "_Barra Uirlisí"
+
+# coinage - KPS
+#: ../src/xpad-pad.c:1548
+msgid "_Autohide Toolbar"
+msgstr "_Uathfholaigh an barra uirlisí"
+
+#: ../src/xpad-pad.c:1550
+msgid "_Scrollbar"
+msgstr "_Scrollbharra"
+
+#: ../src/xpad-pad.c:1551
+msgid "_Window Decorations"
+msgstr "Maisiúcháin _Fuinneoga"
+
+#: ../src/xpad-pad.c:1554
+msgid "_Notes"
+msgstr "_Nótaí"
+
+#: ../src/xpad-pad.c:1562 ../src/xpad-tray.c:123
+msgid "_Show All"
+msgstr "_Taispeáin an t-iomlán"
+
+#: ../src/xpad-pad.c:1563 ../src/xpad-tray.c:130
+msgid "_Close All"
+msgstr "_Dún Gach Uile"
+
+#. The rest of the notes menu will get set up in the prep function below
+#: ../src/xpad-pad.c:1567
+msgid "_Help"
+msgstr "_Cabhair"
+
+#: ../src/xpad-pad.c:1574
+msgid "_Contents"
+msgstr "_Clár"
+
+#: ../src/xpad-pad.c:1575
+msgid "_About"
+msgstr "_Faoi seo"
+
+#: ../src/xpad-pad-properties.c:132 ../src/xpad-preferences.c:122
+msgid "Appearance"
+msgstr "Cuma"
+
+#: ../src/xpad-pad-properties.c:160
+msgid "Use font from xpad preferences"
+msgstr "Bain úsáid as cló fhoireann as na sainroghanna xpad"
+
+#: ../src/xpad-pad-properties.c:161 ../src/xpad-preferences.c:150
+msgid "Use this font:"
+msgstr "Bain úsáid as an chló fhoireann seo:"
+
+#: ../src/xpad-pad-properties.c:162
+msgid "Use colors from xpad preferences"
+msgstr "Bain úsáid as dathanna as na sainroghanna xpad"
+
+#: ../src/xpad-pad-properties.c:163 ../src/xpad-preferences.c:152
+msgid "Use these colors:"
+msgstr "Bain úsáid as na dathanna seo:"
+
+#: ../src/xpad-pad-properties.c:171 ../src/xpad-preferences.c:160
+msgid "Background:"
+msgstr "Cúlra:"
+
+#: ../src/xpad-pad-properties.c:179 ../src/xpad-preferences.c:168
+msgid "Foreground:"
+msgstr "Tulra:"
+
+#: ../src/xpad-pad-properties.c:199 ../src/xpad-preferences.c:192
+msgid "Set Foreground Color"
+msgstr "Socraigh Dath an Tulra"
+
+#: ../src/xpad-pad-properties.c:200 ../src/xpad-preferences.c:193
+msgid "Set Background Color"
+msgstr "Socraigh Dath an Chúlra"
+
+#: ../src/xpad-pad-properties.c:201 ../src/xpad-preferences.c:194
+msgid "Set Font"
+msgstr "Socraigh Clófhoireann"
+
+#: ../src/xpad-preferences.c:149
+msgid "Use font from theme"
+msgstr "Bain úsáid as clófhoireann ó théama"
+
+#: ../src/xpad-preferences.c:151
+msgid "Use colors from theme"
+msgstr "Bain úsáid as dathanna ó théama"
+
+#: ../src/xpad-preferences.c:179
+msgid "_Edit lock"
+msgstr "Cosc ar _Eagar"
+
+#: ../src/xpad-preferences.c:180
+msgid "_Pads start on all workspaces"
+msgstr "Tosaíonn ceapa i n_gach spás oibre"
+
+#: ../src/xpad-preferences.c:181
+msgid "_Confirm pad deletion"
+msgstr "_Dearbhaigh scriosadh an chip nótaí"
+
+#: ../src/xpad-preferences.c:187
+msgid "Xpad Preferences"
+msgstr "Sainroghanna Xpad"
+
+#: ../src/xpad-preferences.c:252
+msgid "Options"
+msgstr "Roghanna"
+
+#: ../src/xpad-toolbar.c:74
+msgid "Clear Pad Contents"
+msgstr "Glan Ábhar an Chip"
+
+#: ../src/xpad-toolbar.c:74
+msgid "Add C_lear to Toolbar"
+msgstr "Cuir G_lan leis an Bharra Uirlisí"
+
+#: ../src/xpad-toolbar.c:75
+msgid "Close and Save Pad"
+msgstr "Dún agus Sábháil an Ceap"
+
+#: ../src/xpad-toolbar.c:75
+msgid "Add _Close to Toolbar"
+msgstr "Cuir _Dún leis an Bharra Uirlisí"
+
+#: ../src/xpad-toolbar.c:76
+msgid "Delete Pad"
+msgstr "Scrios Ceap Nótaí"
+
+#: ../src/xpad-toolbar.c:76
+msgid "Add _Delete to Toolbar"
+msgstr "Cuir _Scrios leis an Bharra Uirlisí"
+
+#: ../src/xpad-toolbar.c:77
+msgid "Open New Pad"
+msgstr "Oscail Ceap Nótaí Nua"
+
+#: ../src/xpad-toolbar.c:77
+msgid "Add _New to Toolbar"
+msgstr "Cuir _Nua leis an Bharra Uirlisí"
+
+#: ../src/xpad-toolbar.c:78
+msgid "Edit Preferences"
+msgstr "Cuir sainroghanna in eagar"
+
+#: ../src/xpad-toolbar.c:78
+msgid "Add Pr_eferences to Toolbar"
+msgstr "Cuir Sain_roghanna leis an Bharra Uirlisí"
+
+#: ../src/xpad-toolbar.c:79
+msgid "Edit Pad Properties"
+msgstr "Athraigh Airíonna an Chip"
+
+#: ../src/xpad-toolbar.c:79
+msgid "Add Proper_ties to Toolbar"
+msgstr "Cuir _Airíonna leis an Bharra Uirlisí"
+
+#: ../src/xpad-toolbar.c:80
+msgid "Close All Pads"
+msgstr "Dún Gach Uile Cheap Nótaí"
+
+#: ../src/xpad-toolbar.c:80
+msgid "Add Close _All to Toolbar"
+msgstr ""
+
+#: ../src/xpad-toolbar.c:81
+msgid "Add a Se_parator to Toolbar"
+msgstr "Cuir _deighilteoir leis an Bharra Uirlisí"
+
+#: ../src/xpad-toolbar.c:538
+msgid "_Remove From Toolbar"
+msgstr "_Bain amach ón Bharra Uirlisí"
+
+#: ../src/xpad-toolbar.c:548
+msgid "_Move"
+msgstr "_Aistrigh"
+
+#: ../xpad.desktop.in.h:1
+msgid "Jot down notes for later"
+msgstr "Breac nótaí le léamh ar ball"
+
+#: ../xpad.desktop.in.h:2
+msgid "Sticky Notes"
+msgstr "Nótaí Greamaitheacha"

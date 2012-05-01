@@ -1,0 +1,366 @@
+# Translation of xpad.pot to Finnish
+# Copyright © 2007 Free Software Foundation, Inc.
+# This file is distributed under the same license as the Xpad package.
+#
+# Jorma Karvonen <karvjorm@users.sf.net>, 2007.
+msgid ""
+msgstr ""
+"Project-Id-Version: xpad 2.11\n"
+"Report-Msgid-Bugs-To: xpad-devel@lists.sourceforge.net\n"
+"POT-Creation-Date: 2011-11-14 11:41-0500\n"
+"PO-Revision-Date: 2009-01-11 17:24+0000\n"
+"Last-Translator: Michael Terry <michael.terry@canonical.com>\n"
+"Language-Team: Finnish <translation-team-fi@lists.sourceforge.net>\n"
+"Language: fi\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2009-05-11 01:52+0000\n"
+"X-Generator: Launchpad (build Unknown)\n"
+"X-Poedit-Country: FINLAND\n"
+"X-Poedit-Language: Finnish\n"
+
+#: ../src/fio.c:128
+#, c-format
+msgid "Could not write to file %s: %s"
+msgstr ""
+
+#: ../src/help.c:49
+msgid ""
+"Each xpad session consists of one or more open pads.  These pads are "
+"basically sticky notes on your desktop in which you can write memos."
+msgstr ""
+
+#: ../src/help.c:52
+msgid ""
+"<b>To move a pad</b>, left drag on the toolbar, right drag on the resizer in "
+"the bottom right, or hold down CTRL while left dragging anywhere on the pad."
+msgstr ""
+
+#: ../src/help.c:55
+msgid ""
+"<b>To resize a pad</b>, left drag on the resizer or hold down CTRL while "
+"right dragging anywhere on the pad."
+msgstr ""
+
+#: ../src/help.c:57
+msgid ""
+"<b>To change color settings</b>, right click on a pad and choose Edit-"
+">Preferences."
+msgstr ""
+
+#: ../src/help.c:59
+msgid ""
+"Most actions are available throught the popup menu that appears when you "
+"right click on a pad.  Try it out and enjoy."
+msgstr ""
+
+#: ../src/help.c:62
+msgid "Please send comments or bug reports to xpad-devel@lists.sourceforge.net"
+msgstr ""
+
+#: ../src/help.c:73
+msgid "Help"
+msgstr ""
+
+#: ../src/xpad-app.c:131
+msgid "Xpad is a graphical program.  Please run it from your desktop."
+msgstr "Xpad on graafinen ohjelma. Aja sitä työpöydältä."
+
+#: ../src/xpad-app.c:136 ../xpad.desktop.in.h:3
+msgid "Xpad"
+msgstr "Xpad"
+
+#: ../src/xpad-app.c:457
+#, c-format
+msgid "Could not open directory %s."
+msgstr "Ei voitu avata hakemistoa %s."
+
+#: ../src/xpad-app.c:460
+msgid ""
+"This directory is needed to store preference and pad information.  Xpad will "
+"close now."
+msgstr ""
+"Tämä hakemisto tarvitaan tallentamaan ensisijaisuus- ja lapputietoja. Xpad "
+"sulkeutuu nyt."
+
+#: ../src/xpad-app.c:767
+msgid "Show version number and quit"
+msgstr "Näytä versionumero ja poistu"
+
+#: ../src/xpad-app.c:768
+msgid "Don't create a new pad on startup if no previous pads exist"
+msgstr ""
+"Älä luo uutta lappua käynnistyksen yhteydessä, jos aikaisempi lappu on jo "
+"olemassa"
+
+#: ../src/xpad-app.c:774
+msgid "Create a new pad on startup even if pads already exist"
+msgstr ""
+"Luo uusi lappu käynnistyksen yhteydessä myös silloin kun lappu on jo olemassa"
+
+#: ../src/xpad-app.c:775
+msgid "Hide all pads"
+msgstr ""
+
+#: ../src/xpad-app.c:776
+msgid "Show all pads"
+msgstr ""
+
+#: ../src/xpad-app.c:777
+msgid "Toggle between show and hide all pads"
+msgstr ""
+
+#: ../src/xpad-app.c:778
+msgid "Create a new pad with the contents of a file"
+msgstr "Luo uusi lappu tiedoston sisällöstä"
+
+#: ../src/xpad-app.c:778
+msgid "FILE"
+msgstr "TIEDOSTO"
+
+#: ../src/xpad-app.c:779
+msgid "Close all pads"
+msgstr "Sulje kaikki laput"
+
+#: ../src/xpad-app.c:810
+#, c-format
+msgid "Xpad %s"
+msgstr "Xpad %s"
+
+#: ../src/xpad-pad.c:154
+#, c-format
+msgid "Could not read file %s."
+msgstr "Ei voitu lukea tiedostoa %s."
+
+#: ../src/xpad-pad.c:653
+msgid "Delete this pad?"
+msgstr "Poistetaanko tämä lappu?"
+
+#: ../src/xpad-pad.c:654
+msgid "All text of this pad will be irrevocably lost."
+msgstr "Kaikki tämän lapun teksti menetetään peruuttomasti."
+
+#: ../src/xpad-pad.c:685
+#, c-format
+msgid "'%s' Properties"
+msgstr "”%s” Ominaisuudet"
+
+#: ../src/xpad-pad.c:1240
+msgid "Sticky notes"
+msgstr "Liimalappumuistiinpanot"
+
+#. Translators: please translate this as your own name and optionally email
+#. like so: "Your Name <your@email.com>"
+#: ../src/xpad-pad.c:1259
+msgid "translator-credits"
+msgstr ""
+"Jorma Karvonen <karvjorm@users.sf.net>\n"
+"\n"
+"Launchpad Contributions:\n"
+"  Jorma Karvonen https://launchpad.net/~karvjorm-users\n"
+"\n"
+"Launchpad Contributions:\n"
+"  Jorma Karvonen https://launchpad.net/~karvjorm-users\n"
+"  Michael Terry https://launchpad.net/~mterry"
+
+#: ../src/xpad-pad.c:1500
+msgid "_Pad"
+msgstr "_Lappu"
+
+#: ../src/xpad-pad.c:1509
+msgid "Show on _All Workspaces"
+msgstr "Näytä k_aikissa työtiloissa"
+
+#: ../src/xpad-pad.c:1517
+msgid "_Edit"
+msgstr "M_uokkaa"
+
+#: ../src/xpad-pad.c:1540
+msgid "_View"
+msgstr "_Näkymä"
+
+#: ../src/xpad-pad.c:1547
+msgid "_Toolbar"
+msgstr "_Työkalupalkki"
+
+#: ../src/xpad-pad.c:1548
+msgid "_Autohide Toolbar"
+msgstr "Piil_ota automaattisesti työkalupalkki"
+
+#: ../src/xpad-pad.c:1550
+msgid "_Scrollbar"
+msgstr "Vi_erityspalkki"
+
+#: ../src/xpad-pad.c:1551
+msgid "_Window Decorations"
+msgstr "_Yläotsakkeet"
+
+#: ../src/xpad-pad.c:1554
+msgid "_Notes"
+msgstr "_Muistiot"
+
+#: ../src/xpad-pad.c:1562 ../src/xpad-tray.c:123
+msgid "_Show All"
+msgstr "_Näytä kaikki"
+
+#: ../src/xpad-pad.c:1563 ../src/xpad-tray.c:130
+msgid "_Close All"
+msgstr "_Sulje kaikki"
+
+#. The rest of the notes menu will get set up in the prep function below
+#: ../src/xpad-pad.c:1567
+msgid "_Help"
+msgstr "O_paste"
+
+#: ../src/xpad-pad.c:1574
+msgid "_Contents"
+msgstr "S_isältö"
+
+#: ../src/xpad-pad.c:1575
+msgid "_About"
+msgstr "Oh_jelmasta"
+
+#: ../src/xpad-pad-properties.c:132 ../src/xpad-preferences.c:122
+msgid "Appearance"
+msgstr "Ulkoasu"
+
+#: ../src/xpad-pad-properties.c:160
+msgid "Use font from xpad preferences"
+msgstr "Käytä kirjasinlajia Xpad-etusijaisuuksista"
+
+#: ../src/xpad-pad-properties.c:161 ../src/xpad-preferences.c:150
+msgid "Use this font:"
+msgstr "Käytä tätä kirjasinlajia"
+
+#: ../src/xpad-pad-properties.c:162
+msgid "Use colors from xpad preferences"
+msgstr "Käytä värejä Xpad-etusijaisuuksista"
+
+#: ../src/xpad-pad-properties.c:163 ../src/xpad-preferences.c:152
+msgid "Use these colors:"
+msgstr "Käytä näitä värejä:"
+
+#: ../src/xpad-pad-properties.c:171 ../src/xpad-preferences.c:160
+msgid "Background:"
+msgstr "Tausta:"
+
+#: ../src/xpad-pad-properties.c:179 ../src/xpad-preferences.c:168
+msgid "Foreground:"
+msgstr "Edusta:"
+
+#: ../src/xpad-pad-properties.c:199 ../src/xpad-preferences.c:192
+msgid "Set Foreground Color"
+msgstr "Aseta edustaväri"
+
+#: ../src/xpad-pad-properties.c:200 ../src/xpad-preferences.c:193
+msgid "Set Background Color"
+msgstr "Aseta taustaväri"
+
+#: ../src/xpad-pad-properties.c:201 ../src/xpad-preferences.c:194
+msgid "Set Font"
+msgstr "Aseta kirjasinlaji"
+
+#: ../src/xpad-preferences.c:149
+msgid "Use font from theme"
+msgstr "Käytä kirjasinlajia teemasta"
+
+#: ../src/xpad-preferences.c:151
+msgid "Use colors from theme"
+msgstr "Käytä värejä teemasta"
+
+#: ../src/xpad-preferences.c:179
+msgid "_Edit lock"
+msgstr "_Muokkaa lukkoa"
+
+#: ../src/xpad-preferences.c:180
+msgid "_Pads start on all workspaces"
+msgstr "Laput _käynnistyvät kaikissa työtiloissa"
+
+#: ../src/xpad-preferences.c:181
+msgid "_Confirm pad deletion"
+msgstr "_Vahvista lapun poistaminen"
+
+#: ../src/xpad-preferences.c:187
+msgid "Xpad Preferences"
+msgstr "Xpad-etusijaisuudet"
+
+#: ../src/xpad-preferences.c:252
+msgid "Options"
+msgstr "Valinnaisuudet"
+
+#: ../src/xpad-toolbar.c:74
+msgid "Clear Pad Contents"
+msgstr "Tyhjennä lapun sisältö"
+
+#: ../src/xpad-toolbar.c:74
+msgid "Add C_lear to Toolbar"
+msgstr "Lisää lapun ty_hjennys työkalupalkkiin"
+
+#: ../src/xpad-toolbar.c:75
+msgid "Close and Save Pad"
+msgstr "Sulje ja tallenna lappu"
+
+#: ../src/xpad-toolbar.c:75
+msgid "Add _Close to Toolbar"
+msgstr "Lisää _sulje työkalupalkkiin"
+
+#: ../src/xpad-toolbar.c:76
+msgid "Delete Pad"
+msgstr "Poista lappu"
+
+#: ../src/xpad-toolbar.c:76
+msgid "Add _Delete to Toolbar"
+msgstr "Lisää _poistaminen työkalupalkkiin"
+
+#: ../src/xpad-toolbar.c:77
+msgid "Open New Pad"
+msgstr "Avaa uusi lappu"
+
+#: ../src/xpad-toolbar.c:77
+msgid "Add _New to Toolbar"
+msgstr "Lisää _uusi työkalupalkkiin"
+
+#: ../src/xpad-toolbar.c:78
+msgid "Edit Preferences"
+msgstr "Muokkaa ensisijaisuuksia"
+
+#: ../src/xpad-toolbar.c:78
+msgid "Add Pr_eferences to Toolbar"
+msgstr "Lisää ensisi_jaisuudet työkalupalkkiin"
+
+#: ../src/xpad-toolbar.c:79
+msgid "Edit Pad Properties"
+msgstr "Muokkaa lapun ominaisuuksia"
+
+#: ../src/xpad-toolbar.c:79
+msgid "Add Proper_ties to Toolbar"
+msgstr "Lisää _ominaisuudet työkalupalkkiin"
+
+#: ../src/xpad-toolbar.c:80
+msgid "Close All Pads"
+msgstr "Sulje kaikki laput"
+
+#: ../src/xpad-toolbar.c:80
+msgid "Add Close _All to Toolbar"
+msgstr ""
+
+#: ../src/xpad-toolbar.c:81
+msgid "Add a Se_parator to Toolbar"
+msgstr "Lisää _erotin työkalupalkkiin"
+
+#: ../src/xpad-toolbar.c:538
+msgid "_Remove From Toolbar"
+msgstr "P_oista työkalupalkista"
+
+#: ../src/xpad-toolbar.c:548
+msgid "_Move"
+msgstr "_Siirrä"
+
+#: ../xpad.desktop.in.h:1
+msgid "Jot down notes for later"
+msgstr "Raapusta muistiin myöhempää käyttöä varten"
+
+#: ../xpad.desktop.in.h:2
+msgid "Sticky Notes"
+msgstr "Liimalappumuistiinpanot"

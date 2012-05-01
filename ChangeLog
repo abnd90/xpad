@@ -1,0 +1,124 @@
+2004-09-29  Jeroen T. Vermeulen <jtv@xs4all.nl>
+
+	* src/eggtrayicon.c: Replace union-as-cast trick with cast (fixes
+	garbage values in config file)
+
+2004-03-03  Michael Terry  <mike@mterry.name>
+
+	* po/LINGUAS, po/af.po: New Afrikaans (af) translation by Petri
+	Jooste
+
+2004-02-23  Michael Terry  <mike@mterry.name>
+
+	* src/main.c: Use a list of pixbufs instead of just a 48 pixel
+	one for the default window icon.
+        * src/tray.c: Use 24 pixel image instead of 48.
+	* Makefile.am: Add xpad-tray.ui
+	* po/POTFILES.in, src/Makefile.am, src/main.c, src/pad.c: Move
+	src/tray.c to src/xpad-tray.c
+	* src/pad.c, src/pad.h: Make some UIManager functions globally
+	accessible
+	* src/pad.c, src/pref.c: Make some callback functions work when
+	pad==NULL
+	* src/tray.c, src/tray.h: Delete
+	* src/xpad-tray.c, src/xpad-tray.h: Add
+
+2004-01-30  Michael Terry  <mikix@users.sourceforge.net>
+
+	* src/dashboard-frontend.c, dashboard-frontend.h: New files used 
+	to connect to dashboard.
+	* src/xpad-dashboard-frontend.c, src/xpad-dashboard-frontend.h: 
+	New files used to send dashboard relevant information.
+	* src/pad.c: Register with dashboard when creating pads.
+	* po/POTFILES.in: Add new files.
+	* src/Makefile.am: Add new files.
+
+2004-01-26  Michael Terry  <mikix@users.sourceforge.net>
+
+	* pad.c: Remove old ui for popup when popping 
+
+2004-01-25  Michael Terry  <mikix@users.sourceforge.net>
+
+	* pad.c: Fix mismanagement of memory causing a crash on pad close
+	* pad.c: Fix border not being right color when default style is used
+
+2004-01-25  Michael Terry  <mikix@users.sourceforge.net>
+
+	* Makefile.am: Distribute xpad.ui
+	* configure.ac: Move back to gettext 0.11.5 until intltool works
+	with 0.12.1
+	* src/Makefile.am, src/defines.h, src/pad.c, src/pref.c, src/sm.c,
+	src/toolbar.c, src/toolbar.h: Remove deprecated code.
+
+2004-01-25  Michael Terry  <mikix@users.sourceforge.net>
+
+	* main.c: Allow disabling nls to work
+
+2004-01-25  Michael Terry  <mikix@users.sourceforge.net>
+
+	* configure.ac: Use gettext 0.12.1, not 0.11.5
+	* defines.h: Use glib/gi18n.h, not gettext.h
+	* main.c, tray.c: Use an icon size of 48, not 128
+	* pad.c, pad.h: Update to use new GtkAction menus and sort notes list
+
+2003-11-10  Michael Terry  <mikix@users.sourceforge.net>
+	* configure.ac: Bump version to 1.14, define GETTEXT_PACKAGE,
+	  modify comments, and require GTK+ 2.3 or greater.
+	* Makefile.am: Take out *_DISABLE_DEPRECATED flags for now, until
+	  xpad compiles clean on GTK+ 2.3 and we do something smarter with
+	  them.
+	* src/eggtrayicon.c, src/eggtrayicon.h: Update to latest libegg code.
+	* src/main.c: Use GETTEXT_PACKAGE.
+	* src/pad.c: Only decorate visible pads, and only after hiding them.
+	  Only style visible pads.  Remove some toggle_lock toolbar code.
+	  Update to use new preference paradigm.  Remove #ifdefs for old
+	  versions of GTK+.  Fix a small memory leak with fontname strings
+	  and creating a pad with info.
+	* src/pad.h: Don't include pref.h
+	* src/pref.c: Totally redesign style portions.  Took out border
+	  customization and window close button control.  Use new
+	  GtkColorButton and GtkFontButton.  Fix some spacing per HIG.
+	* src/pref.h: Require a pad when opening preferences.
+	* src/properties.c: Totally redesign, using new GtkColorButton and
+	  GtkFontButton.  Set title to use pad's title.
+	* src/settings.c: Only apply style changes to visible pads.  Change
+	  default decorations preference to on.
+
+2003-11-07  Michael Terry  <mikix@users.sourceforge.net>
+	* src/main.c, src/tray.c: Use GTK+ 2.3 GtkIconTheme instead of built
+	  in pixmaps
+
+2003-10-23  Michael Terry  <mikix@users.sourceforge.net>
+	* po/es.po, po/ga.po, po/nl.po: Update translations
+
+2003-10-20  Michael Terry  <mikix@users.sourceforge.net>
+	* configure.ac: Remove unused header/function tests
+	* src/main.c: Fix segfault if can't connect to master socket
+
+2003-10-10  Michael Terry  <mikix@users.sourceforge.net>
+	* src/main.c: Fix broken compile by adding back program_name
+	* src/pad.c, src/tray.c, src/tray.h: Allow xpad to tell when the
+	  system tray is open and don't close xpad when pads are all closed
+	  but the system tray isn't
+	* po/es.po: Update translation
+	* configure.ac: Bump version number to 1.13
+
+2003-10-08  Michael Terry  <mikix@users.sourceforge.net>
+	* po/es.po, po/ga.po, po/nl.po: Update translations
+
+2003-10-04  Michael Terry  <mikix@users.sourceforge.net>
+	* xpad.desktop.in: Change 'xpad' to 'Xpad'
+
+2003-10-03  Michael Terry  <mikix@users.sourceforge.net>
+	* configure.ac, src/main.c: More correct check for locale.h and make
+	  translations work again
+
+2003-10-01  Michael Terry  <mikix@users.sourceforge.net>
+	* configure.ac, THANKS: Bumped version to 1.12, set Automake
+	  strictness to gnits level, and added THANKS file
+
+2003-09-29  Michael Terry  <mikix@users.sourceforge.net>
+	* src/pref.c: Made 'Auto-hide toolbar' button sensitive depending
+	  on toolbar being enabled or not
+	* src/settings.c: Save new list pointer when removing and appending
+	  to toolbar list

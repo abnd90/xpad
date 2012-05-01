@@ -1,0 +1,75 @@
+Xpad README
+-----------
+
+Xpad is a virtual sticky pad system using GTK+ 2.
+
+
+--------------------------------------------------------------------------
+INSTALLATION NOTES
+--------------------------------------------------------------------------
+     To compile, just type "./configure", "make", and "make install".
+     Type "xpad" now to run.
+
+     Read the INSTALL file for more information.
+
+
+--------------------------------------------------------------------------
+USAGE NOTES
+--------------------------------------------------------------------------
+     Right click to obtain configuration options and open new pads.
+
+     Hold down CTRL and left-click drag to move a pad.  Hold down CTRL and 
+		right-drag to resize a pad.
+
+     Xpad stores its files in ~/.config/xpad.
+
+     To change the default size of pads, edit ~/.config/xpad/default-style
+
+
+--------------------------------------------------------------------------
+COMMAND ARGUMENTS
+--------------------------------------------------------------------------
+	Standard GTK+ arguments are understood.  For more information,
+		read the man page -- xpad(1).
+
+
+--------------------------------------------------------------------------
+KNOWN BUGS
+--------------------------------------------------------------------------
+	If edit lock is enabled, a pad will sometimes get in a state in
+		which it will not leave edit mode.  Other pads are not 
+		affected, nor is there any conflict with other windows.  But,
+		the only way to lock the pad again is to close it and restart.
+		If you have any information about this problem (like how to
+		reliably reproduce it), please don't hesitate to send a
+		bug report to xpad-devel@lists.sourceforge.net.
+	
+	If WM stickiness is changed through mixed calls to the WM and 
+		pad controls, xpad may think the stickiness is incorrect.
+		This has no effect on xpad's behavior.  Just toggle the 
+		sticky control on the pad to correct it.
+	Stickiness may or may not work with your window manager.  It is
+		broken on at least Oroborus.
+	
+	When moving a pad, if the toolbar times out and disappears,
+		the pad is not resized to remove the space the toolbar took up.
+		This happens on at least Gnome.
+		This does *not* happen on at least Blackbox and
+			Oroborus.
+	
+	If you have any patches / suggestions, please email us at
+		xpad-devel@lists.sourceforge.net and let us know so we can 
+		do something about it.  It will never get fixed if we don't
+		know about it!
+
+
+--------------------------------------------------------------------------
+LICENSE NOTES
+--------------------------------------------------------------------------
+     Xpad is licensed under the terms of the GNU Public License.  See
+          COPYING for more information.
+
+
+--------------------------------------------------------------------------
+Copyright (c) 2001-2004 Michael Terry
+http://xpad.sourceforge.net/

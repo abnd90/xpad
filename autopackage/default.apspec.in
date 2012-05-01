@@ -1,0 +1,40 @@
+# -*-shell-script-*-
+
+[Meta]
+RootName: @xpad.sourceforge.net/xpad:$SOFTWAREVERSION
+DisplayName: Xpad Sticky Notes
+ShortName: xpad
+URL: http://xpad.sourceforge.net/
+Maintainer: Michael Terry <mike@mterry.name>
+Packager: Michael Terry <mike@mterry.name>
+Summary: Sticky notes for your desktop.
+License: GNU General Public License, Version 2
+AutopackageTarget: 1.0
+CPUArchitectures: x86
+SoftwareVersion: @VERSION@
+PackageVersion: 1
+
+[Description]
+Xpad is a sticky notes application.
+
+[BuildPrepare]
+prepareBuild
+
+[BuildUnprepare]
+unprepareBuild
+
+[Imports]
+echo '*' | import
+
+[Prepare]
+require @gtk.org/gtk 2.6
+
+[Install]
+installExe bin/*
+copyFiles share/locale "$PREFIX/share"
+installMan 1 man/man1/*
+installIcon share/icons/*
+installDesktop "Utility" share/applications/*
+
+[Uninstall]
+uninstallFromLog

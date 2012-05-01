@@ -1,0 +1,360 @@
+# Simplified Chinese translation for xpad.
+# Copyright (C) 2005 Free Software Foundation, Inc.
+# This file is distributed under the same license as the xpad package.
+# Meng Jie <zuxyhere@eastday.com>, 2004.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: xpad 2.11\n"
+"Report-Msgid-Bugs-To: xpad-devel@lists.sourceforge.net\n"
+"POT-Creation-Date: 2011-11-14 11:41-0500\n"
+"PO-Revision-Date: 2009-01-11 17:24+0000\n"
+"Last-Translator: Michael Terry <michael.terry@canonical.com>\n"
+"Language-Team: Chinese (simplified) <translation-team-zh-cn@lists."
+"sourceforge.net>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2009-05-11 01:52+0000\n"
+"X-Generator: Launchpad (build Unknown)\n"
+
+#: ../src/fio.c:128
+#, c-format
+msgid "Could not write to file %s: %s"
+msgstr ""
+
+#: ../src/help.c:49
+msgid ""
+"Each xpad session consists of one or more open pads.  These pads are "
+"basically sticky notes on your desktop in which you can write memos."
+msgstr ""
+
+#: ../src/help.c:52
+msgid ""
+"<b>To move a pad</b>, left drag on the toolbar, right drag on the resizer in "
+"the bottom right, or hold down CTRL while left dragging anywhere on the pad."
+msgstr ""
+
+#: ../src/help.c:55
+msgid ""
+"<b>To resize a pad</b>, left drag on the resizer or hold down CTRL while "
+"right dragging anywhere on the pad."
+msgstr ""
+
+#: ../src/help.c:57
+msgid ""
+"<b>To change color settings</b>, right click on a pad and choose Edit-"
+">Preferences."
+msgstr ""
+
+#: ../src/help.c:59
+msgid ""
+"Most actions are available throught the popup menu that appears when you "
+"right click on a pad.  Try it out and enjoy."
+msgstr ""
+
+#: ../src/help.c:62
+msgid "Please send comments or bug reports to xpad-devel@lists.sourceforge.net"
+msgstr ""
+
+#: ../src/help.c:73
+msgid "Help"
+msgstr ""
+
+#: ../src/xpad-app.c:131
+msgid "Xpad is a graphical program.  Please run it from your desktop."
+msgstr "Xpad 是一个图形化程序。请从您的桌面上运行它。"
+
+#: ../src/xpad-app.c:136 ../xpad.desktop.in.h:3
+msgid "Xpad"
+msgstr "Xpad"
+
+#: ../src/xpad-app.c:457
+#, c-format
+msgid "Could not open directory %s."
+msgstr "无法打开目录 %s"
+
+#: ../src/xpad-app.c:460
+msgid ""
+"This directory is needed to store preference and pad information.  Xpad will "
+"close now."
+msgstr "需要此目录以存储首选项和便笺信息。Xpad 现在将关闭。"
+
+#: ../src/xpad-app.c:767
+msgid "Show version number and quit"
+msgstr "显示版本号然后退出"
+
+#: ../src/xpad-app.c:768
+msgid "Don't create a new pad on startup if no previous pads exist"
+msgstr "即使不存在，启动时也不新建便笺"
+
+#: ../src/xpad-app.c:774
+msgid "Create a new pad on startup even if pads already exist"
+msgstr "即使已经存在，启动时也新建一个便笺"
+
+#: ../src/xpad-app.c:775
+msgid "Hide all pads"
+msgstr ""
+
+#: ../src/xpad-app.c:776
+msgid "Show all pads"
+msgstr ""
+
+#: ../src/xpad-app.c:777
+msgid "Toggle between show and hide all pads"
+msgstr ""
+
+#: ../src/xpad-app.c:778
+msgid "Create a new pad with the contents of a file"
+msgstr "从文件创建一个新便签"
+
+#: ../src/xpad-app.c:778
+msgid "FILE"
+msgstr "文件"
+
+#: ../src/xpad-app.c:779
+msgid "Close all pads"
+msgstr "关闭所有便笺"
+
+#: ../src/xpad-app.c:810
+#, c-format
+msgid "Xpad %s"
+msgstr "Xpad %s"
+
+#: ../src/xpad-pad.c:154
+#, c-format
+msgid "Could not read file %s."
+msgstr "无法读入文件 %s。"
+
+#: ../src/xpad-pad.c:653
+msgid "Delete this pad?"
+msgstr "删除此便笺？"
+
+#: ../src/xpad-pad.c:654
+msgid "All text of this pad will be irrevocably lost."
+msgstr "此便笺中的所有文本将不可恢复地丢失。"
+
+#: ../src/xpad-pad.c:685
+#, c-format
+msgid "'%s' Properties"
+msgstr "‘%s’属性"
+
+#: ../src/xpad-pad.c:1240
+msgid "Sticky notes"
+msgstr "自粘性备注"
+
+#. Translators: please translate this as your own name and optionally email
+#. like so: "Your Name <your@email.com>"
+#: ../src/xpad-pad.c:1259
+msgid "translator-credits"
+msgstr ""
+"孟杰 <zuxy.meng@gmail.com>\n"
+"\n"
+"Launchpad Contributions:\n"
+"  Meng Jie https://launchpad.net/~zuxy-meng\n"
+"\n"
+"Launchpad Contributions:\n"
+"  Meng Jie https://launchpad.net/~zuxy-meng\n"
+"  Michael Terry https://launchpad.net/~mterry"
+
+#: ../src/xpad-pad.c:1500
+msgid "_Pad"
+msgstr "便笺(_P)"
+
+#: ../src/xpad-pad.c:1509
+msgid "Show on _All Workspaces"
+msgstr "显示于所有工作区中(_A)"
+
+#: ../src/xpad-pad.c:1517
+msgid "_Edit"
+msgstr "编辑(_E)"
+
+#: ../src/xpad-pad.c:1540
+msgid "_View"
+msgstr "查看(_V)"
+
+#: ../src/xpad-pad.c:1547
+msgid "_Toolbar"
+msgstr "工具栏(_T)"
+
+#: ../src/xpad-pad.c:1548
+msgid "_Autohide Toolbar"
+msgstr "自动隐藏工具栏(_A)"
+
+#: ../src/xpad-pad.c:1550
+msgid "_Scrollbar"
+msgstr "滚动条(_S)"
+
+#: ../src/xpad-pad.c:1551
+msgid "_Window Decorations"
+msgstr "窗口装饰(_W)"
+
+#: ../src/xpad-pad.c:1554
+msgid "_Notes"
+msgstr "备注(_N)"
+
+#: ../src/xpad-pad.c:1562 ../src/xpad-tray.c:123
+msgid "_Show All"
+msgstr "全部显示(_S)"
+
+#: ../src/xpad-pad.c:1563 ../src/xpad-tray.c:130
+msgid "_Close All"
+msgstr "全部关闭(_C)"
+
+#. The rest of the notes menu will get set up in the prep function below
+#: ../src/xpad-pad.c:1567
+msgid "_Help"
+msgstr "帮助(_H)"
+
+#: ../src/xpad-pad.c:1574
+msgid "_Contents"
+msgstr "内容(_C)"
+
+#: ../src/xpad-pad.c:1575
+msgid "_About"
+msgstr "关于(_A)"
+
+#: ../src/xpad-pad-properties.c:132 ../src/xpad-preferences.c:122
+msgid "Appearance"
+msgstr "外观"
+
+#: ../src/xpad-pad-properties.c:160
+msgid "Use font from xpad preferences"
+msgstr "使用 Xpad 首选项中的字体"
+
+#: ../src/xpad-pad-properties.c:161 ../src/xpad-preferences.c:150
+msgid "Use this font:"
+msgstr "使用此字体："
+
+#: ../src/xpad-pad-properties.c:162
+msgid "Use colors from xpad preferences"
+msgstr "使用 Xpad 首选项中的颜色"
+
+#: ../src/xpad-pad-properties.c:163 ../src/xpad-preferences.c:152
+msgid "Use these colors:"
+msgstr "使用这些颜色："
+
+#: ../src/xpad-pad-properties.c:171 ../src/xpad-preferences.c:160
+msgid "Background:"
+msgstr "背景："
+
+#: ../src/xpad-pad-properties.c:179 ../src/xpad-preferences.c:168
+msgid "Foreground:"
+msgstr "前景："
+
+#: ../src/xpad-pad-properties.c:199 ../src/xpad-preferences.c:192
+msgid "Set Foreground Color"
+msgstr "设置前景色"
+
+#: ../src/xpad-pad-properties.c:200 ../src/xpad-preferences.c:193
+msgid "Set Background Color"
+msgstr "设置背景色"
+
+#: ../src/xpad-pad-properties.c:201 ../src/xpad-preferences.c:194
+msgid "Set Font"
+msgstr "设置字体"
+
+#: ../src/xpad-preferences.c:149
+msgid "Use font from theme"
+msgstr "使用主题的字体"
+
+#: ../src/xpad-preferences.c:151
+msgid "Use colors from theme"
+msgstr "使用主题的颜色"
+
+#: ../src/xpad-preferences.c:179
+msgid "_Edit lock"
+msgstr "编辑锁定(_E)"
+
+#: ../src/xpad-preferences.c:180
+msgid "_Pads start on all workspaces"
+msgstr "便笺在所有工作区启动(_P)"
+
+#: ../src/xpad-preferences.c:181
+msgid "_Confirm pad deletion"
+msgstr "确认便笺删除(_C)"
+
+#: ../src/xpad-preferences.c:187
+msgid "Xpad Preferences"
+msgstr "Xpad 首选项"
+
+#: ../src/xpad-preferences.c:252
+msgid "Options"
+msgstr "选项"
+
+#: ../src/xpad-toolbar.c:74
+msgid "Clear Pad Contents"
+msgstr "清空便笺的内容"
+
+#: ../src/xpad-toolbar.c:74
+msgid "Add C_lear to Toolbar"
+msgstr "将清空添加至工具栏(_C)"
+
+#: ../src/xpad-toolbar.c:75
+msgid "Close and Save Pad"
+msgstr "关闭并保存便笺"
+
+#: ../src/xpad-toolbar.c:75
+msgid "Add _Close to Toolbar"
+msgstr "将关闭添加至工具栏(_C)"
+
+#: ../src/xpad-toolbar.c:76
+msgid "Delete Pad"
+msgstr "删除便笺"
+
+#: ../src/xpad-toolbar.c:76
+msgid "Add _Delete to Toolbar"
+msgstr "将删除添加至工具栏(_D)"
+
+#: ../src/xpad-toolbar.c:77
+msgid "Open New Pad"
+msgstr "打开新便笺"
+
+#: ../src/xpad-toolbar.c:77
+msgid "Add _New to Toolbar"
+msgstr "将新建添加至工具栏(_N)"
+
+#: ../src/xpad-toolbar.c:78
+msgid "Edit Preferences"
+msgstr "编辑首选项"
+
+#: ../src/xpad-toolbar.c:78
+msgid "Add Pr_eferences to Toolbar"
+msgstr "将首选项添加至工具栏(_E)"
+
+#: ../src/xpad-toolbar.c:79
+msgid "Edit Pad Properties"
+msgstr "编辑便笺属性"
+
+#: ../src/xpad-toolbar.c:79
+msgid "Add Proper_ties to Toolbar"
+msgstr "将属性添加至工具栏(_T)"
+
+#: ../src/xpad-toolbar.c:80
+msgid "Close All Pads"
+msgstr "关闭所有便笺"
+
+#: ../src/xpad-toolbar.c:80
+msgid "Add Close _All to Toolbar"
+msgstr ""
+
+#: ../src/xpad-toolbar.c:81
+msgid "Add a Se_parator to Toolbar"
+msgstr "将分隔线添加至工具栏(_P)"
+
+#: ../src/xpad-toolbar.c:538
+msgid "_Remove From Toolbar"
+msgstr "从工具栏中删除(_R)"
+
+#: ../src/xpad-toolbar.c:548
+msgid "_Move"
+msgstr "移动(_M)"
+
+#: ../xpad.desktop.in.h:1
+msgid "Jot down notes for later"
+msgstr "简要记录备注以备日后使用"
+
+#: ../xpad.desktop.in.h:2
+msgid "Sticky Notes"
+msgstr "自粘性备注"

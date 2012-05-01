@@ -1,0 +1,361 @@
+# Hungarian translation of Xpad
+# Copyright (C) 2005 Free Software Foundation, Inc.
+# Németh Csaba <csaba@sopron.hu>, 2005.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: xpad 2.11\n"
+"Report-Msgid-Bugs-To: xpad-devel@lists.sourceforge.net\n"
+"POT-Creation-Date: 2011-11-14 11:41-0500\n"
+"PO-Revision-Date: 2009-01-11 17:24+0000\n"
+"Last-Translator: Gabor Kelemen <kelemeng@gnome.hu>\n"
+"Language-Team: Hungarian <translation-team-hu@lists.sourceforge.net>\n"
+"Language: hu\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=ISO-8859-2\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2009-05-11 01:52+0000\n"
+"X-Generator: Launchpad (build Unknown)\n"
+
+#: ../src/fio.c:128
+#, c-format
+msgid "Could not write to file %s: %s"
+msgstr ""
+
+#: ../src/help.c:49
+msgid ""
+"Each xpad session consists of one or more open pads.  These pads are "
+"basically sticky notes on your desktop in which you can write memos."
+msgstr ""
+
+#: ../src/help.c:52
+msgid ""
+"<b>To move a pad</b>, left drag on the toolbar, right drag on the resizer in "
+"the bottom right, or hold down CTRL while left dragging anywhere on the pad."
+msgstr ""
+
+#: ../src/help.c:55
+msgid ""
+"<b>To resize a pad</b>, left drag on the resizer or hold down CTRL while "
+"right dragging anywhere on the pad."
+msgstr ""
+
+#: ../src/help.c:57
+msgid ""
+"<b>To change color settings</b>, right click on a pad and choose Edit-"
+">Preferences."
+msgstr ""
+
+#: ../src/help.c:59
+msgid ""
+"Most actions are available throught the popup menu that appears when you "
+"right click on a pad.  Try it out and enjoy."
+msgstr ""
+
+#: ../src/help.c:62
+msgid "Please send comments or bug reports to xpad-devel@lists.sourceforge.net"
+msgstr ""
+
+#: ../src/help.c:73
+msgid "Help"
+msgstr ""
+
+#: ../src/xpad-app.c:131
+msgid "Xpad is a graphical program.  Please run it from your desktop."
+msgstr "Az Xpad egy grafikus program. Kérem futtassa az asztalról!"
+
+#: ../src/xpad-app.c:136 ../xpad.desktop.in.h:3
+msgid "Xpad"
+msgstr "Xpad"
+
+#: ../src/xpad-app.c:457
+#, c-format
+msgid "Could not open directory %s."
+msgstr "Nem tudom megnyitni a %s könyvtárat."
+
+#: ../src/xpad-app.c:460
+msgid ""
+"This directory is needed to store preference and pad information.  Xpad will "
+"close now."
+msgstr ""
+"Ennek a könyvtárnak szüksége van arra, hogy eltárolja a tulajdonságokat és a "
+"jegyzet információit. Az Xpad most bezáródik."
+
+#: ../src/xpad-app.c:767
+msgid "Show version number and quit"
+msgstr "Verziószám megjelenítése és kilépés"
+
+#: ../src/xpad-app.c:768
+msgid "Don't create a new pad on startup if no previous pads exist"
+msgstr "Ne hozzon létre új jegyzetet indításkor ha az elõzõbõl nem léptünk ki"
+
+#: ../src/xpad-app.c:774
+msgid "Create a new pad on startup even if pads already exist"
+msgstr "Indításkor hozzon létre új jegyzetet, akkor is, ha már van"
+
+#: ../src/xpad-app.c:775
+msgid "Hide all pads"
+msgstr ""
+
+#: ../src/xpad-app.c:776
+msgid "Show all pads"
+msgstr ""
+
+#: ../src/xpad-app.c:777
+msgid "Toggle between show and hide all pads"
+msgstr ""
+
+#: ../src/xpad-app.c:778
+msgid "Create a new pad with the contents of a file"
+msgstr "Új jegyzet készítése a fájl tartalmával"
+
+#: ../src/xpad-app.c:778
+msgid "FILE"
+msgstr "FÁJL"
+
+#: ../src/xpad-app.c:779
+msgid "Close all pads"
+msgstr "Összes jegyzet bezárása"
+
+#: ../src/xpad-app.c:810
+#, c-format
+msgid "Xpad %s"
+msgstr "Xpad %s"
+
+#: ../src/xpad-pad.c:154
+#, c-format
+msgid "Could not read file %s."
+msgstr "Nem tudom olvasni a %s fájlt."
+
+#: ../src/xpad-pad.c:653
+msgid "Delete this pad?"
+msgstr "Töröljem ezt a jegyzetet?"
+
+#: ../src/xpad-pad.c:654
+msgid "All text of this pad will be irrevocably lost."
+msgstr "Minden szöveg visszavonhatatlanul elveszik a jegyzetrõl."
+
+#: ../src/xpad-pad.c:685
+#, c-format
+msgid "'%s' Properties"
+msgstr "'%s' Tulajdonságok"
+
+#: ../src/xpad-pad.c:1240
+msgid "Sticky notes"
+msgstr "Ragadós jegyzetek"
+
+#. Translators: please translate this as your own name and optionally email
+#. like so: "Your Name <your@email.com>"
+#: ../src/xpad-pad.c:1259
+msgid "translator-credits"
+msgstr ""
+"Németh Csaba <csaba@sopron.hu>\n"
+"\n"
+"Launchpad Contributions:\n"
+"  1soproni https://launchpad.net/~csaba\n"
+"  Gabor Kelemen https://launchpad.net/~kelemeng\n"
+"\n"
+"Launchpad Contributions:\n"
+"  1soproni https://launchpad.net/~csaba\n"
+"  Gabor Kelemen https://launchpad.net/~kelemeng"
+
+#: ../src/xpad-pad.c:1500
+msgid "_Pad"
+msgstr "_Jegyzet"
+
+#: ../src/xpad-pad.c:1509
+msgid "Show on _All Workspaces"
+msgstr "Mutassa az _Összes munkaterületen"
+
+#: ../src/xpad-pad.c:1517
+msgid "_Edit"
+msgstr "_Szerkesztés"
+
+#: ../src/xpad-pad.c:1540
+msgid "_View"
+msgstr "_Nézet"
+
+#: ../src/xpad-pad.c:1547
+msgid "_Toolbar"
+msgstr "_Eszköztár"
+
+#: ../src/xpad-pad.c:1548
+msgid "_Autohide Toolbar"
+msgstr "El_rejtõdõ eszköztár"
+
+#: ../src/xpad-pad.c:1550
+msgid "_Scrollbar"
+msgstr "_Görgetõsáv"
+
+#: ../src/xpad-pad.c:1551
+msgid "_Window Decorations"
+msgstr "_Ablak dekoráció"
+
+#: ../src/xpad-pad.c:1554
+msgid "_Notes"
+msgstr "_Jegyzetek"
+
+#: ../src/xpad-pad.c:1562 ../src/xpad-tray.c:123
+msgid "_Show All"
+msgstr "_Mindet mutat"
+
+#: ../src/xpad-pad.c:1563 ../src/xpad-tray.c:130
+msgid "_Close All"
+msgstr "Mindet _bezár"
+
+#. The rest of the notes menu will get set up in the prep function below
+#: ../src/xpad-pad.c:1567
+msgid "_Help"
+msgstr "_Súgó"
+
+#: ../src/xpad-pad.c:1574
+msgid "_Contents"
+msgstr "_Tartalom"
+
+#: ../src/xpad-pad.c:1575
+msgid "_About"
+msgstr "_Névjegy"
+
+#: ../src/xpad-pad-properties.c:132 ../src/xpad-preferences.c:122
+msgid "Appearance"
+msgstr "Megjelenés"
+
+#: ../src/xpad-pad-properties.c:160
+msgid "Use font from xpad preferences"
+msgstr "Használja az xpad beállított betütípusát"
+
+#: ../src/xpad-pad-properties.c:161 ../src/xpad-preferences.c:150
+msgid "Use this font:"
+msgstr "Használja ezt a betütípust:"
+
+#: ../src/xpad-pad-properties.c:162
+msgid "Use colors from xpad preferences"
+msgstr "Használja az xpad beálított színeit"
+
+#: ../src/xpad-pad-properties.c:163 ../src/xpad-preferences.c:152
+msgid "Use these colors:"
+msgstr "Használja ezt a színt:"
+
+#: ../src/xpad-pad-properties.c:171 ../src/xpad-preferences.c:160
+msgid "Background:"
+msgstr "Háttér:"
+
+#: ../src/xpad-pad-properties.c:179 ../src/xpad-preferences.c:168
+msgid "Foreground:"
+msgstr "Elõtér:"
+
+#: ../src/xpad-pad-properties.c:199 ../src/xpad-preferences.c:192
+msgid "Set Foreground Color"
+msgstr "Elõtérszín beállítás"
+
+#: ../src/xpad-pad-properties.c:200 ../src/xpad-preferences.c:193
+msgid "Set Background Color"
+msgstr "Háttérszín beállítás"
+
+#: ../src/xpad-pad-properties.c:201 ../src/xpad-preferences.c:194
+msgid "Set Font"
+msgstr "Betütípus beállítás"
+
+#: ../src/xpad-preferences.c:149
+msgid "Use font from theme"
+msgstr "Használja a téma betütípusát"
+
+#: ../src/xpad-preferences.c:151
+msgid "Use colors from theme"
+msgstr "Használja a téma színeit"
+
+#: ../src/xpad-preferences.c:179
+msgid "_Edit lock"
+msgstr "Szerkesztés zárolás"
+
+#: ../src/xpad-preferences.c:180
+msgid "_Pads start on all workspaces"
+msgstr "Induljon az _Összes munkaterületen"
+
+#: ../src/xpad-preferences.c:181
+msgid "_Confirm pad deletion"
+msgstr "_Rákérdezés jegyzet törlésekor"
+
+#: ../src/xpad-preferences.c:187
+msgid "Xpad Preferences"
+msgstr "Xpad tulajdonságai"
+
+#: ../src/xpad-preferences.c:252
+msgid "Options"
+msgstr "Beállítások"
+
+#: ../src/xpad-toolbar.c:74
+msgid "Clear Pad Contents"
+msgstr "Törölje a jegyzet tartalmát"
+
+#: ../src/xpad-toolbar.c:74
+msgid "Add C_lear to Toolbar"
+msgstr "Tisztítás hozzáadása az eszköztárhoz"
+
+#: ../src/xpad-toolbar.c:75
+msgid "Close and Save Pad"
+msgstr "Jegyzet mentése és bezárása"
+
+#: ../src/xpad-toolbar.c:75
+msgid "Add _Close to Toolbar"
+msgstr "Bezárás hozzáadása az eszköztárhoz"
+
+#: ../src/xpad-toolbar.c:76
+msgid "Delete Pad"
+msgstr "Jegyzet törlése"
+
+#: ../src/xpad-toolbar.c:76
+msgid "Add _Delete to Toolbar"
+msgstr "Törlés hozzáadása az eszköztárhoz"
+
+#: ../src/xpad-toolbar.c:77
+msgid "Open New Pad"
+msgstr "Új jegyzet nyitása"
+
+#: ../src/xpad-toolbar.c:77
+msgid "Add _New to Toolbar"
+msgstr "_Új hozzáadása az eszköztárhoz"
+
+#: ../src/xpad-toolbar.c:78
+msgid "Edit Preferences"
+msgstr "Tulajdonságok szerkesztése"
+
+#: ../src/xpad-toolbar.c:78
+msgid "Add Pr_eferences to Toolbar"
+msgstr "_Tulajdonságok hozzáadása az eszköztárhoz"
+
+#: ../src/xpad-toolbar.c:79
+msgid "Edit Pad Properties"
+msgstr "Jegyzet tulajdonságainak szerkesztése"
+
+#: ../src/xpad-toolbar.c:79
+msgid "Add Proper_ties to Toolbar"
+msgstr "Tulajdonságok hozzáadása az eszköztárhoz"
+
+#: ../src/xpad-toolbar.c:80
+msgid "Close All Pads"
+msgstr "Összes jegyzet bezárása"
+
+#: ../src/xpad-toolbar.c:80
+msgid "Add Close _All to Toolbar"
+msgstr ""
+
+#: ../src/xpad-toolbar.c:81
+msgid "Add a Se_parator to Toolbar"
+msgstr "Elválasztó hozzáadása az eszköztárhoz"
+
+#: ../src/xpad-toolbar.c:538
+msgid "_Remove From Toolbar"
+msgstr "Eltávolítás az eszköztárról"
+
+#: ../src/xpad-toolbar.c:548
+msgid "_Move"
+msgstr "_Mozgatás"
+
+#: ../xpad.desktop.in.h:1
+msgid "Jot down notes for later"
+msgstr "Jegyzetek felvitele késõbbi használatra"
+
+#: ../xpad.desktop.in.h:2
+msgid "Sticky Notes"
+msgstr "Ragadós jegyzetek"

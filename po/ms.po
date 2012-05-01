@@ -1,0 +1,300 @@
+# Xpad Bahasa Melayu (Malay) (ms)
+# Copyright (C) 2005 Sharuzzaman Ahmat Raslan
+# This file is distributed under the same license as the xpad package.
+# Sharuzzaman Ahmat Raslan <sharuzzaman@myrealbox.com>, 2005, 2006.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: xpad 2.11\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2006-02-07 05:09-0500\n"
+"PO-Revision-Date: 2006-03-20 19:58+0800\n"
+"Last-Translator: Sharuzzaman Ahmat Raslan <sharuzzaman@myrealbox.com>\n"
+"Language-Team: Malay <translation-team-ms@lists.sourceforge.net>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../src/fio.c:134
+#, c-format
+msgid "Could not write to file %s."
+msgstr "Tidak dapat menulis ke fail %s."
+
+#: ../src/xpad-app.c:126
+msgid "Xpad is a graphical program.  Please run it from your desktop."
+msgstr "Xpad adalah program bergrafik.  Sila laksanakannya dari desktop anda."
+
+#: ../src/xpad-app.c:131 ../xpad.desktop.in.h:3
+msgid "Xpad"
+msgstr "Xpad"
+
+#: ../src/xpad-app.c:431
+#, c-format
+msgid "Could not open directory %s."
+msgstr "Tidak dapat membuka direktori %s."
+
+#: ../src/xpad-app.c:434
+msgid "This directory is needed to store preference and pad information.  Xpad will close now."
+msgstr "Direktori ini diperlukan untuk menyimpan keutamaan dan maklumat pad. Xpad akan ditutup sekarang."
+
+#: ../src/xpad-app.c:738
+msgid "Show version number and quit"
+msgstr "Papar nombor versi dan keluar"
+
+#: ../src/xpad-app.c:739
+msgid "Hide existing pads on startup"
+msgstr "Sorok pad sedia ada ketika permulaan"
+
+#: ../src/xpad-app.c:740
+msgid "Don't create a new pad on startup if no previous pads exist"
+msgstr "Jangan cipta pad baru ketika permulaan jika pad terdahulu wujud"
+
+#: ../src/xpad-app.c:746
+msgid "Create a new pad on startup even if pads already exist"
+msgstr "Cipta pad baru ketika permulaan walaupun pad telah wujud"
+
+#: ../src/xpad-app.c:747
+msgid "Create a new pad with the contents of a file"
+msgstr "Cipta pad baru dengan kandungan fail"
+
+#: ../src/xpad-app.c:747
+msgid "FILE"
+msgstr "FAIL"
+
+#: ../src/xpad-app.c:748
+msgid "Close all pads"
+msgstr "Tutup semua pad"
+
+#: ../src/xpad-app.c:780
+#, c-format
+msgid "Xpad %s"
+msgstr "Xpad %s"
+
+#: ../src/xpad-pad.c:154
+#, c-format
+msgid "Could not read file %s."
+msgstr "Tidak dapat membaca fail %s."
+
+#: ../src/xpad-pad.c:637
+msgid "Delete this pad?"
+msgstr "Padam pad ini?"
+
+#: ../src/xpad-pad.c:638
+msgid "All text of this pad will be irrevocably lost."
+msgstr "Semua teks pada pad ini akan hilang selama-lamanya."
+
+#: ../src/xpad-pad.c:669
+#, c-format
+msgid "'%s' Properties"
+msgstr "Ciri-ciri '%s'"
+
+#: ../src/xpad-pad.c:1209
+msgid "Sticky notes"
+msgstr "Nota lekit"
+
+#. Translators: please translate this as your own name and optionally email
+#. like so: "Your Name <your@email.com>"
+#: ../src/xpad-pad.c:1228
+msgid "translator-credits"
+msgstr "Sharuzzaman Ahmat Raslan <sharuzzaman@myrealbox.com>"
+
+#: ../src/xpad-pad.c:1449
+msgid "_Pad"
+msgstr "_Pad"
+
+#: ../src/xpad-pad.c:1458
+msgid "Show on _All Workspaces"
+msgstr "P_apar pada Semua Ruangkerja"
+
+#: ../src/xpad-pad.c:1465
+msgid "_Edit"
+msgstr "_Sunting"
+
+#: ../src/xpad-pad.c:1478
+msgid "_View"
+msgstr "_Lihat"
+
+#: ../src/xpad-pad.c:1485
+msgid "_Toolbar"
+msgstr "Bar Ala_tan"
+
+#: ../src/xpad-pad.c:1486
+msgid "_Autohide Toolbar"
+msgstr "_Autosorok Bar Alatan"
+
+#: ../src/xpad-pad.c:1488
+msgid "_Scrollbar"
+msgstr "Bar _Skrol"
+
+#: ../src/xpad-pad.c:1489
+msgid "_Window Decorations"
+msgstr "_Hiasan Tetingkap"
+
+#: ../src/xpad-pad.c:1492
+msgid "_Notes"
+msgstr "_Nota"
+
+#: ../src/xpad-pad.c:1500 ../src/xpad-tray.c:145
+msgid "_Show All"
+msgstr "Papar _Semua"
+
+#: ../src/xpad-pad.c:1501 ../src/xpad-tray.c:152
+msgid "_Close All"
+msgstr "_Tutup Semua"
+
+#. The rest of the notes menu will get set up in the prep function below
+#: ../src/xpad-pad.c:1505
+msgid "_Help"
+msgstr "_Bantuan"
+
+#: ../src/xpad-pad.c:1512
+msgid "_Contents"
+msgstr "_Kandungan"
+
+#: ../src/xpad-pad.c:1513
+msgid "_About"
+msgstr "_Perihal"
+
+#: ../src/xpad-pad-properties.c:132 ../src/xpad-preferences.c:122
+msgid "Appearance"
+msgstr "Penampilan"
+
+#: ../src/xpad-pad-properties.c:160
+msgid "Use font from xpad preferences"
+msgstr "Guna font dari keutamaan xpad"
+
+#: ../src/xpad-pad-properties.c:161 ../src/xpad-preferences.c:150
+msgid "Use this font:"
+msgstr "Gunakan font ini:"
+
+#: ../src/xpad-pad-properties.c:162
+msgid "Use colors from xpad preferences"
+msgstr "Guna warna dari keutamaan xpad"
+
+#: ../src/xpad-pad-properties.c:163 ../src/xpad-preferences.c:152
+msgid "Use these colors:"
+msgstr "Guna warna ini:"
+
+#: ../src/xpad-pad-properties.c:171 ../src/xpad-preferences.c:160
+msgid "Background:"
+msgstr "Latarbelakang:"
+
+#: ../src/xpad-pad-properties.c:179 ../src/xpad-preferences.c:168
+msgid "Foreground:"
+msgstr "Latardepan:"
+
+#: ../src/xpad-pad-properties.c:199 ../src/xpad-preferences.c:192
+msgid "Set Foreground Color"
+msgstr "Tetap Warna Latardepan"
+
+#: ../src/xpad-pad-properties.c:200 ../src/xpad-preferences.c:193
+msgid "Set Background Color"
+msgstr "Tetap Warna Latarbelakang"
+
+#: ../src/xpad-pad-properties.c:201 ../src/xpad-preferences.c:194
+msgid "Set Font"
+msgstr "Tetap Font"
+
+#: ../src/xpad-preferences.c:149
+msgid "Use font from theme"
+msgstr "Guna font dari tema"
+
+#: ../src/xpad-preferences.c:151
+msgid "Use colors from theme"
+msgstr "Guna warna dari tema"
+
+#: ../src/xpad-preferences.c:179
+msgid "_Edit lock"
+msgstr "_Ubah kunci"
+
+#: ../src/xpad-preferences.c:180
+msgid "_Pads start on all workspaces"
+msgstr "_Pad bermula pada semua ruangkerja"
+
+#: ../src/xpad-preferences.c:181
+msgid "_Confirm pad deletion"
+msgstr "_Sahkan pemadaman pad"
+
+#: ../src/xpad-preferences.c:187
+msgid "Xpad Preferences"
+msgstr "Keutamaan Xpad"
+
+#: ../src/xpad-preferences.c:252
+msgid "Options"
+msgstr "Pilihan"
+
+#: ../src/xpad-toolbar.c:76
+msgid "Clear Pad Contents"
+msgstr "Kosongkan Kandungan Pad"
+
+#: ../src/xpad-toolbar.c:76
+msgid "Add C_lear to Toolbar"
+msgstr "Tambah Kosongkan ke Bar A_latan"
+
+#: ../src/xpad-toolbar.c:77
+msgid "Close and Save Pad"
+msgstr "Tutup dan Simpan Pad"
+
+#: ../src/xpad-toolbar.c:77
+msgid "Add _Close to Toolbar"
+msgstr "_Tambah Tutup ke Bar Alatan"
+
+#: ../src/xpad-toolbar.c:78
+msgid "Delete Pad"
+msgstr "Padam Pad"
+
+#: ../src/xpad-toolbar.c:78
+msgid "Add _Delete to Toolbar"
+msgstr "Tambah Pa_dam ke Bar Alatan"
+
+#: ../src/xpad-toolbar.c:79
+msgid "Open New Pad"
+msgstr "Buka Pad Baru"
+
+#: ../src/xpad-toolbar.c:79
+msgid "Add _New to Toolbar"
+msgstr "Tambah Baru ke Bar Alata_n"
+
+#: ../src/xpad-toolbar.c:80
+msgid "Edit Preferences"
+msgstr "Sunting Keutamaan"
+
+#: ../src/xpad-toolbar.c:80
+msgid "Add Pr_eferences to Toolbar"
+msgstr "Tambah K_eutamaan ke Bar Alat"
+
+#: ../src/xpad-toolbar.c:81
+msgid "Edit Pad Properties"
+msgstr "Sunting Ciri-ciri Pad"
+
+#: ../src/xpad-toolbar.c:81
+msgid "Add Proper_ties to Toolbar"
+msgstr "Tambah Ciri-ciri ke Bar Ala_t"
+
+#: ../src/xpad-toolbar.c:82
+msgid "Close All Pads"
+msgstr "Tutup Semua Pad"
+
+#: ../src/xpad-toolbar.c:82
+msgid "Add _Quit to Toolbar"
+msgstr "Tambah _Keluar ke Bar Alatan"
+
+#: ../src/xpad-toolbar.c:83
+msgid "Add a Se_parator to Toolbar"
+msgstr "Tambah _Pengasing ke Bar Alat"
+
+#: ../src/xpad-toolbar.c:545
+msgid "_Remove From Toolbar"
+msgstr "Buang Da_ri Bar Alatan"
+
+#: ../src/xpad-toolbar.c:555
+msgid "_Move"
+msgstr "_Gerak"
+
+#: ../xpad.desktop.in.h:1
+msgid "Jot down notes for later"
+msgstr "Catat nota untuk akan datang"
+
+#: ../xpad.desktop.in.h:2
+msgid "Sticky Notes"
+msgstr "Nota Lekit"
